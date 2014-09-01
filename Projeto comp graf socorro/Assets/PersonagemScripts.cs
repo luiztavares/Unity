@@ -15,6 +15,7 @@ public class PersonagemScripts : MonoBehaviour {
 		Time.timeScale = 1;
 		flagChamas = false;
 		chave = false;
+
 	}
 
 
