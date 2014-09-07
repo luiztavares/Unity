@@ -10,8 +10,7 @@ public class menuOnGame : MonoBehaviour {
 	int tamanhoY;
 	int posicaoCentroX;
 	int posicaoCentroY;
-	public GUIText vida;
-	
+
 	void Start () {
 		menuFlag = false;
 		timeBackFlag = false;
@@ -29,10 +28,13 @@ public class menuOnGame : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Escape)) {
 			menuFlag = !menuFlag;
 
-			if(menuFlag)
+			if(menuFlag){
+				Time.timeScale = 0;
+			}
+			else{
 				Time.timeScale = 1;
-			else
-				Time.timeScale = 1;
+
+			}
 		}
 
 	}
@@ -51,6 +53,8 @@ public class menuOnGame : MonoBehaviour {
 						if (GUI.Button (new Rect (posicaoCentroX - tamanhoX / 2, posicaoCentroY +(3/2)*tamanhoY , tamanhoX, tamanhoY), "Menu")) {
 								Application.LoadLevel("menu");
 						}
+				
+						
 			if (GUI.Button (new Rect (posicaoCentroX - tamanhoX / 2, posicaoCentroY +( 5/2)*tamanhoY  , tamanhoX, tamanhoY), "Sair")) {
 							Application.Quit();
 						}

@@ -6,13 +6,16 @@ public var idleAnimation : AnimationClip;
 public var walkAnimation : AnimationClip;
 public var runAnimation : AnimationClip;
 public var jumpPoseAnimation : AnimationClip;
-public var planoSlow : GameObject;
+public var Crouch : AnimationClip;
+public var CrouchWalk : AnimationClip;
+public var CrouchRun : AnimationClip;
 
 public var walkMaxAnimationSpeed : float = 0.75;
 public var trotMaxAnimationSpeed : float = 1.0;
 public var runMaxAnimationSpeed : float = 1.0;
 public var jumpAnimationSpeed : float = 1.15;
 public var landAnimationSpeed : float = 1.0;
+public var CrouchWalkSpeed : float = 0.5;
 public var posicao : Vector3;
 
 private var _animation : Animation;
@@ -23,6 +26,9 @@ enum CharacterState {
 	Trotting = 2,
 	Running = 3,
 	Jumping = 4,
+	Crouch = 5,
+	CrouchWalk = 6,
+	CrouchRun = 7
 }
 
 private var _characterState : CharacterState;
@@ -37,7 +43,7 @@ var runSpeed = 6.0;
 var inAirControlAcceleration = 3.0;
 
 // How high do we jump when pressing jump and letting go immediately
-var jumpHeight = 0.5;
+var jumpHeight = 1;
 
 // The gravity for the character
 var gravity = 20.0;
@@ -192,7 +198,18 @@ function UpdateSmoothedMovementDirection ()
 		_characterState = CharacterState.Idle;
 		
 		// Pick speed modifier
-		if (Input.GetKey (KeyCode.LeftShift) || Input.GetKey (KeyCode.RightShift))
+		if (Input.GetKey (KeyCode.LeftControl) && Input.GetKey (KeyCode.LeftShift) )
+		{
+			targetSpeed *= runSpeed;
+			_characterState = CharacterState.CrouchRun;
+		}
+		else if (Input.GetKey (KeyCode.LeftControl))
+		{
+			targetSpeed *= CrouchWalkSpeed;
+			_characterState = CharacterState.Crouch;
+		}
+		
+		else if (Input.GetKey (KeyCode.LeftShift) || Input.GetKey (KeyCode.RightShift))
 		{
 			targetSpeed *= runSpeed;
 			_characterState = CharacterState.Running;
@@ -202,6 +219,7 @@ function UpdateSmoothedMovementDirection ()
 			targetSpeed *= trotSpeed;
 			_characterState = CharacterState.Trotting;
 		}
+		
 		else
 		{
 			targetSpeed *= walkSpeed;
@@ -334,8 +352,27 @@ function Update() {
 			}
 		} 
 		else 
-		{
-			if(controller.velocity.sqrMagnitude < 0.1) {
+		{	
+			if(_characterState == CharacterState.CrouchRun){
+				if(controller.velocity.sqrMagnitude < 0.1) 
+					_animation.CrossFade(Crouch.name);	
+				else{
+					_animation.CrossFade(CrouchRun.name);
+					_animation[runAnimation.name].speed = Mathf.Clamp(controller.velocity.magnitude, 0.0, CrouchWalkSpeed);
+				}
+			}
+			
+			else if(_characterState == CharacterState.Crouch){
+				if(controller.velocity.sqrMagnitude < 0.1) 
+					_animation.CrossFade(Crouch.name);	
+				else{
+					_animation.CrossFade(CrouchWalk.name);
+					_animation[runAnimation.name].speed = Mathf.Clamp(controller.velocity.magnitude, 0.0, CrouchWalkSpeed);
+				}
+			}
+			
+			
+			else if(controller.velocity.sqrMagnitude < 0.1) {
 				_animation.CrossFade(idleAnimation.name);
 			}
 			else 

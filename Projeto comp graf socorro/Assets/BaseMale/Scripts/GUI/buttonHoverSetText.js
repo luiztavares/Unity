@@ -7,6 +7,7 @@ var textValue : String;
 var offset : float = 30;
 
 function Start () {
+
 }
 
 function Update () {

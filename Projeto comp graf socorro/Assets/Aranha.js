@@ -10,6 +10,7 @@
     var myTransform : Transform; //current transform data of this enemy
     var attackDelayTime : float;
     var tempoRotate : float;
+    var teia : GameObject;
     
     function Awake()
     {
@@ -49,6 +50,7 @@
     Quaternion.LookRotation(target.position - myTransform.position), rotationSpeed*Time.deltaTime);
     attackDelayTime += Time.deltaTime;
     animation.Play("Attack");
+    Instantiate(teia);
  //   	if(attackDelayTime >= 1) ataque tira vida
     		
     }
