@@ -49,10 +49,17 @@
     myTransform.rotation = Quaternion.Slerp(myTransform.rotation,
     Quaternion.LookRotation(target.position - myTransform.position), rotationSpeed*Time.deltaTime);
     attackDelayTime += Time.deltaTime;
+    if(attackDelayTime <= 0.2)
+    	animation.Play("Walk");
+    else	
     animation.Play("Attack");
-    Instantiate(teia);
- //   	if(attackDelayTime >= 1) ataque tira vida
-    		
+    
+    
+    if(attackDelayTime >= 1.1){
+    	Instantiate(teia, myTransform.position, myTransform.rotation);
+    	attackDelayTime = 0;
+
+    }		
     }
     else { 
     	if (tempoRotate > 2) {
