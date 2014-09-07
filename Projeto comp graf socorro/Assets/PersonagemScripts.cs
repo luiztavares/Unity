@@ -9,12 +9,14 @@ public class PersonagemScripts : MonoBehaviour {
 	public static bool chave;
 	bool flagChamas;
 	public static Vector3 posicao;
+	static int vida;
 
 
 	void Start () {
 		Time.timeScale = 1;
 		flagChamas = false;
 		chave = false;
+		vida = 100;
 
 	}
 

@@ -10,6 +10,7 @@ public class menuOnGame : MonoBehaviour {
 	int tamanhoY;
 	int posicaoCentroX;
 	int posicaoCentroY;
+	public GUIText vida;
 	
 	void Start () {
 		menuFlag = false;
@@ -18,6 +19,7 @@ public class menuOnGame : MonoBehaviour {
 		tamanhoY = 100;
 		posicaoCentroX = Screen.width / 2;
 		posicaoCentroY = Screen.height / 4;
+//		vida = (GUIText)PersonagemScripts.vida;
 
 	}
 	
