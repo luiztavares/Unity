@@ -87,7 +87,7 @@ GameObject:
   - 23: {fileID: 9889721}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -159,7 +159,7 @@ GameObject:
   - 23: {fileID: 11314474}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -231,7 +231,7 @@ GameObject:
   - 23: {fileID: 11432094}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -303,7 +303,7 @@ GameObject:
   - 23: {fileID: 23099334}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -375,7 +375,7 @@ GameObject:
   - 23: {fileID: 25849678}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -447,7 +447,7 @@ GameObject:
   - 23: {fileID: 26613735}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -519,7 +519,7 @@ GameObject:
   - 23: {fileID: 32704640}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -591,7 +591,7 @@ GameObject:
   - 23: {fileID: 33495211}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -663,7 +663,7 @@ GameObject:
   - 23: {fileID: 42895941}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -735,7 +735,7 @@ GameObject:
   - 23: {fileID: 42951582}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -807,7 +807,7 @@ GameObject:
   - 23: {fileID: 49012906}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -879,7 +879,7 @@ GameObject:
   - 23: {fileID: 55285860}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -946,7 +946,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 60237568}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 R Finger01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -978,7 +978,7 @@ GameObject:
   - 23: {fileID: 63578613}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1050,7 +1050,7 @@ GameObject:
   - 23: {fileID: 63913282}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1109,6 +1109,185 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1646471590}
   m_RootOrder: 240
+--- !u!1 &71992438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 516cf8c8d268c8e44ad445ab570fb199, type: 2}
+  m_PrefabInternal: {fileID: 529969056}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 71992445}
+  - 33: {fileID: 71992444}
+  - 65: {fileID: 71992443}
+  - 23: {fileID: 71992442}
+  - 95: {fileID: 71992441}
+  - 111: {fileID: 71992440}
+  - 114: {fileID: 71992439}
+  m_Layer: 0
+  m_Name: Porta
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &71992439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 516cf8c8d268c8e44ad445ab570fb199,
+    type: 2}
+  m_PrefabInternal: {fileID: 529969056}
+  m_GameObject: {fileID: 71992438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f942197777487e343b7d83150c76cb38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!111 &71992440
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11100000, guid: 516cf8c8d268c8e44ad445ab570fb199,
+    type: 2}
+  m_PrefabInternal: {fileID: 529969056}
+  m_GameObject: {fileID: 71992438}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 2d0c2130f1eb94c4481961c7695ef97a, type: 2}
+  - {fileID: 7400000, guid: 67a6b0053b9c1af469760daa073a6241, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!95 &71992441
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: 516cf8c8d268c8e44ad445ab570fb199,
+    type: 2}
+  m_PrefabInternal: {fileID: 529969056}
+  m_GameObject: {fileID: 71992438}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 34773bce617d19c4ab0a59d18c167e1f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+--- !u!23 &71992442
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 516cf8c8d268c8e44ad445ab570fb199,
+    type: 2}
+  m_PrefabInternal: {fileID: 529969056}
+  m_GameObject: {fileID: 71992438}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!65 &71992443
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500000, guid: 516cf8c8d268c8e44ad445ab570fb199,
+    type: 2}
+  m_PrefabInternal: {fileID: 529969056}
+  m_GameObject: {fileID: 71992438}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &71992444
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 516cf8c8d268c8e44ad445ab570fb199,
+    type: 2}
+  m_PrefabInternal: {fileID: 529969056}
+  m_GameObject: {fileID: 71992438}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &71992445
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 516cf8c8d268c8e44ad445ab570fb199, type: 2}
+  m_PrefabInternal: {fileID: 529969056}
+  m_GameObject: {fileID: 71992438}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.755928, y: -.972560883, z: 90.4746017}
+  m_LocalScale: {x: 10.2843304, y: 8.30424786, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+--- !u!1001 &72397552
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 657019808fd22bc46a635c6548fa61f2, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 427
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 657019808fd22bc46a635c6548fa61f2, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 657019808fd22bc46a635c6548fa61f2, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 657019808fd22bc46a635c6548fa61f2, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 657019808fd22bc46a635c6548fa61f2, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.126198977
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 657019808fd22bc46a635c6548fa61f2, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 657019808fd22bc46a635c6548fa61f2, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .992004991
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 657019808fd22bc46a635c6548fa61f2, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 657019808fd22bc46a635c6548fa61f2, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 657019808fd22bc46a635c6548fa61f2, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 657019808fd22bc46a635c6548fa61f2, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2600000, guid: 657019808fd22bc46a635c6548fa61f2, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5c54115eb5a2a4c4fb1b11b8e6100bd8, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 657019808fd22bc46a635c6548fa61f2, type: 2}
+  m_RootGameObject: {fileID: 579812926}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &75413304
 GameObject:
   m_ObjectHideFlags: 0
@@ -1122,7 +1301,7 @@ GameObject:
   - 23: {fileID: 75413305}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1194,7 +1373,7 @@ GameObject:
   - 23: {fileID: 77195745}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1266,7 +1445,7 @@ GameObject:
   - 23: {fileID: 80253065}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1391,7 +1570,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 9
 --- !u!182 &84916072
 WindZone:
   m_ObjectHideFlags: 0
@@ -1431,7 +1610,7 @@ GameObject:
   - 23: {fileID: 96952589}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1498,7 +1677,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 97967160}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 R Finger3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1531,7 +1710,7 @@ GameObject:
   - 23: {fileID: 115268020}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1603,7 +1782,7 @@ GameObject:
   - 23: {fileID: 119305182}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1670,7 +1849,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 126010897}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaC_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1703,7 +1882,7 @@ GameObject:
   - 23: {fileID: 129537183}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1770,7 +1949,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 133373225}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaA_003_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1803,7 +1982,7 @@ GameObject:
   - 23: {fileID: 155116429}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1875,7 +2054,7 @@ GameObject:
   - 23: {fileID: 156582776}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1942,7 +2121,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 158957118}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 R Finger4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1975,7 +2154,7 @@ GameObject:
   - 23: {fileID: 169471082}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2047,7 +2226,7 @@ GameObject:
   - 23: {fileID: 172516794}
   m_Layer: 0
   m_Name: Paredao(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2119,7 +2298,7 @@ GameObject:
   - 23: {fileID: 179184115}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2191,7 +2370,7 @@ GameObject:
   - 23: {fileID: 181370120}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2258,7 +2437,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 185666943}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sheya
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2291,7 +2470,7 @@ GameObject:
   - 23: {fileID: 193622949}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2363,7 +2542,7 @@ GameObject:
   - 23: {fileID: 194590070}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2435,7 +2614,7 @@ GameObject:
   - 23: {fileID: 197478400}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2507,7 +2686,7 @@ GameObject:
   - 23: {fileID: 200498448}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2579,7 +2758,7 @@ GameObject:
   - 23: {fileID: 203320240}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2646,7 +2825,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 209563778}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 Pelvis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2680,7 +2859,7 @@ GameObject:
   - 23: {fileID: 210193113}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2752,7 +2931,7 @@ GameObject:
   - 23: {fileID: 214893866}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2824,7 +3003,7 @@ GameObject:
   - 23: {fileID: 218655763}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2883,50 +3062,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1646471590}
   m_RootOrder: 289
---- !u!1001 &219238222
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 400000, guid: b66994e8a03eed74caf37c0a92b16a88, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -21.3117676
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b66994e8a03eed74caf37c0a92b16a88, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -1.62074041
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b66994e8a03eed74caf37c0a92b16a88, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 74.8572922
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b66994e8a03eed74caf37c0a92b16a88, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b66994e8a03eed74caf37c0a92b16a88, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b66994e8a03eed74caf37c0a92b16a88, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b66994e8a03eed74caf37c0a92b16a88, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: -4.37113883e-08
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b66994e8a03eed74caf37c0a92b16a88, type: 2}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: b66994e8a03eed74caf37c0a92b16a88, type: 2}
-  m_RootGameObject: {fileID: 494064613}
-  m_IsPrefabParent: 0
-  m_IsExploded: 1
 --- !u!1 &223627952
 GameObject:
   m_ObjectHideFlags: 0
@@ -2940,7 +3075,7 @@ GameObject:
   - 23: {fileID: 223627953}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3012,7 +3147,7 @@ GameObject:
   - 23: {fileID: 226085431}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3084,7 +3219,7 @@ GameObject:
   - 23: {fileID: 230774771}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3156,7 +3291,7 @@ GameObject:
   - 23: {fileID: 231333658}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3223,7 +3358,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 235263963}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaA_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3256,7 +3391,7 @@ GameObject:
   - 23: {fileID: 239201440}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3328,7 +3463,7 @@ GameObject:
   - 23: {fileID: 244020959}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3424,7 +3559,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8509213149a602f4cada89c76d560ee7, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8509213149a602f4cada89c76d560ee7, type: 2}
@@ -3444,7 +3579,7 @@ GameObject:
   - 23: {fileID: 244460994}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3516,7 +3651,7 @@ GameObject:
   - 23: {fileID: 251235316}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3583,7 +3718,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 256387840}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 L Finger3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3616,7 +3751,7 @@ GameObject:
   - 23: {fileID: 260450779}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3688,7 +3823,7 @@ GameObject:
   - 23: {fileID: 263985494}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3760,7 +3895,7 @@ GameObject:
   - 23: {fileID: 277553972}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3819,6 +3954,58 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1646471590}
   m_RootOrder: 336
+--- !u!1001 &280377107
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: d5e4975c342d0d742b1b6a670ffc8f8a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -11.6754837
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d5e4975c342d0d742b1b6a670ffc8f8a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.01228714
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d5e4975c342d0d742b1b6a670ffc8f8a, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 92.5139084
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d5e4975c342d0d742b1b6a670ffc8f8a, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d5e4975c342d0d742b1b6a670ffc8f8a, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d5e4975c342d0d742b1b6a670ffc8f8a, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d5e4975c342d0d742b1b6a670ffc8f8a, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d5e4975c342d0d742b1b6a670ffc8f8a, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: d5e4975c342d0d742b1b6a670ffc8f8a, type: 2}
+      propertyPath: porta
+      value: 
+      objectReference: {fileID: 71992438}
+    - target: {fileID: 11400000, guid: d5e4975c342d0d742b1b6a670ffc8f8a, type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 100078, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: d5e4975c342d0d742b1b6a670ffc8f8a, type: 2}
+  m_RootGameObject: {fileID: 923285310}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &282112444
 GameObject:
   m_ObjectHideFlags: 0
@@ -3832,7 +4019,7 @@ GameObject:
   - 23: {fileID: 282112445}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3899,7 +4086,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 294266449}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: IKnoga_003_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3931,7 +4118,7 @@ GameObject:
   - 23: {fileID: 295189052}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4003,7 +4190,7 @@ GameObject:
   - 23: {fileID: 302362600}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4070,7 +4257,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 305189980}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 R Finger41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4102,7 +4289,7 @@ GameObject:
   - 23: {fileID: 305874843}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4174,7 +4361,7 @@ GameObject:
   - 23: {fileID: 308997597}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4246,7 +4433,7 @@ GameObject:
   - 23: {fileID: 311787622}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4318,7 +4505,7 @@ GameObject:
   - 114: {fileID: 316323507}
   - 114: {fileID: 316323506}
   - 136: {fileID: 316323510}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: homem
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -4338,7 +4525,7 @@ Transform:
   - {fileID: 1126157230}
   - {fileID: 1880152675}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
 --- !u!114 &316323506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4387,6 +4574,8 @@ MonoBehaviour:
   landAnimationSpeed: 1
   CrouchWalkSpeed: 3
   posicao: {x: 0, y: 0, z: 0}
+  hasKey: 0
+  comecando: 1
   walkSpeed: 5
   trotSpeed: 4
   runSpeed: 10
@@ -4466,7 +4655,7 @@ GameObject:
   - 23: {fileID: 316580146}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4538,7 +4727,7 @@ GameObject:
   - 23: {fileID: 320409993}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4610,7 +4799,7 @@ GameObject:
   - 23: {fileID: 324821970}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4682,7 +4871,7 @@ GameObject:
   - 23: {fileID: 340019808}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4754,7 +4943,7 @@ GameObject:
   - 23: {fileID: 342510524}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4826,7 +5015,7 @@ GameObject:
   - 23: {fileID: 345176981}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4898,7 +5087,7 @@ GameObject:
   - 23: {fileID: 350112649}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4970,7 +5159,7 @@ GameObject:
   - 23: {fileID: 354824850}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5042,7 +5231,7 @@ GameObject:
   - 23: {fileID: 356688247}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5114,7 +5303,7 @@ GameObject:
   - 23: {fileID: 357592705}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5186,7 +5375,7 @@ GameObject:
   - 23: {fileID: 358193014}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5253,7 +5442,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 359037126}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaA_001_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5286,7 +5475,7 @@ GameObject:
   - 23: {fileID: 365330809}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5358,7 +5547,7 @@ GameObject:
   - 23: {fileID: 371820961}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5430,7 +5619,7 @@ GameObject:
   - 23: {fileID: 372755219}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5502,7 +5691,7 @@ GameObject:
   - 23: {fileID: 377431062}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5569,7 +5758,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 386685502}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone_004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5601,7 +5790,7 @@ GameObject:
   - 23: {fileID: 398391991}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5673,7 +5862,7 @@ GameObject:
   - 23: {fileID: 402671600}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5745,7 +5934,7 @@ GameObject:
   - 23: {fileID: 403455800}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5817,7 +6006,7 @@ GameObject:
   - 23: {fileID: 405568295}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5889,7 +6078,7 @@ GameObject:
   - 23: {fileID: 418833129}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5961,7 +6150,7 @@ GameObject:
   - 23: {fileID: 419263802}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6033,7 +6222,7 @@ GameObject:
   - 23: {fileID: 419824023}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6105,7 +6294,7 @@ GameObject:
   - 23: {fileID: 422638657}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6177,7 +6366,7 @@ GameObject:
   - 23: {fileID: 422785760}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6249,7 +6438,7 @@ GameObject:
   - 23: {fileID: 424534306}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6321,7 +6510,7 @@ GameObject:
   - 23: {fileID: 431679781}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6393,7 +6582,7 @@ GameObject:
   - 23: {fileID: 433064644}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6465,7 +6654,7 @@ GameObject:
   - 23: {fileID: 444359873}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6524,70 +6713,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1646471590}
   m_RootOrder: 186
---- !u!1001 &446375416
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 400000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 141.11821
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -6
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 5.22110748
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 2}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 121.643318
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 7.60271358
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 121.643417
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 2}
-      propertyPath: m_CastShadows
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 2}
-      propertyPath: m_ReceiveShadows
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 2}
-  m_RootGameObject: {fileID: 1893593216}
-  m_IsPrefabParent: 0
-  m_IsExploded: 1
 --- !u!1 &447003870
 GameObject:
   m_ObjectHideFlags: 0
@@ -6601,7 +6726,7 @@ GameObject:
   - 23: {fileID: 447003871}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6673,7 +6798,7 @@ GameObject:
   - 23: {fileID: 449714531}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6745,7 +6870,7 @@ GameObject:
   - 23: {fileID: 450727789}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6812,7 +6937,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 453740285}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 L Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6849,7 +6974,7 @@ GameObject:
   - 23: {fileID: 455090184}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6921,7 +7046,7 @@ GameObject:
   - 23: {fileID: 465347259}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6993,7 +7118,7 @@ GameObject:
   - 23: {fileID: 473921713}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7089,7 +7214,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fd3e86cb4cab4dc4ea7e01c4d0177a7b, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fd3e86cb4cab4dc4ea7e01c4d0177a7b, type: 2}
@@ -7109,7 +7234,7 @@ GameObject:
   - 23: {fileID: 478001853}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7181,7 +7306,7 @@ GameObject:
   - 23: {fileID: 478619314}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7253,7 +7378,7 @@ GameObject:
   - 23: {fileID: 480062019}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7325,7 +7450,7 @@ GameObject:
   - 23: {fileID: 481172286}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7397,7 +7522,7 @@ GameObject:
   - 23: {fileID: 484667974}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7469,7 +7594,7 @@ GameObject:
   - 23: {fileID: 488564461}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7528,91 +7653,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1646471590}
   m_RootOrder: 356
---- !u!1 &494064613
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: b66994e8a03eed74caf37c0a92b16a88, type: 2}
-  m_PrefabInternal: {fileID: 219238222}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 494064618}
-  - 33: {fileID: 494064617}
-  - 65: {fileID: 494064616}
-  - 23: {fileID: 494064615}
-  - 114: {fileID: 494064614}
-  m_Layer: 0
-  m_Name: teia
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &494064614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: b66994e8a03eed74caf37c0a92b16a88,
-    type: 2}
-  m_PrefabInternal: {fileID: 219238222}
-  m_GameObject: {fileID: 494064613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6a17c32f2f2d03448607c962677f2d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!23 &494064615
-Renderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: b66994e8a03eed74caf37c0a92b16a88,
-    type: 2}
-  m_PrefabInternal: {fileID: 219238222}
-  m_GameObject: {fileID: 494064613}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 2100000, guid: 595a3f12f12894e48bc2662cc5256dc5, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!65 &494064616
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6500000, guid: b66994e8a03eed74caf37c0a92b16a88,
-    type: 2}
-  m_PrefabInternal: {fileID: 219238222}
-  m_GameObject: {fileID: 494064613}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 2, z: 0}
---- !u!33 &494064617
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: b66994e8a03eed74caf37c0a92b16a88,
-    type: 2}
-  m_PrefabInternal: {fileID: 219238222}
-  m_GameObject: {fileID: 494064613}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &494064618
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: b66994e8a03eed74caf37c0a92b16a88, type: 2}
-  m_PrefabInternal: {fileID: 219238222}
-  m_GameObject: {fileID: 494064613}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -4.37113883e-08}
-  m_LocalPosition: {x: -21.3117676, y: -1.62074041, z: 74.8572922}
-  m_LocalScale: {x: 2.8004508, y: 1.86269486, z: .000205254095}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
 --- !u!1 &496840651
 GameObject:
   m_ObjectHideFlags: 0
@@ -7621,7 +7661,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 496840652}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 L Finger11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7653,7 +7693,7 @@ GameObject:
   - 23: {fileID: 501803027}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7725,7 +7765,7 @@ GameObject:
   - 23: {fileID: 507623441}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7792,7 +7832,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 509334073}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 L Finger2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7825,7 +7865,7 @@ GameObject:
   - 23: {fileID: 509652297}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7897,7 +7937,7 @@ GameObject:
   - 23: {fileID: 510092457}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7969,7 +8009,7 @@ GameObject:
   - 23: {fileID: 525415815}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8036,7 +8076,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 525560114}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8071,7 +8111,7 @@ GameObject:
   - 23: {fileID: 528114455}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8138,7 +8178,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 529891039}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 L Clavicle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8158,6 +8198,50 @@ Transform:
   - {fileID: 2124095550}
   m_Father: {fileID: 525560114}
   m_RootOrder: 1
+--- !u!1001 &529969056
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 516cf8c8d268c8e44ad445ab570fb199, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -12.755928
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 516cf8c8d268c8e44ad445ab570fb199, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -.972560883
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 516cf8c8d268c8e44ad445ab570fb199, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 90.4746017
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 516cf8c8d268c8e44ad445ab570fb199, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 516cf8c8d268c8e44ad445ab570fb199, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 516cf8c8d268c8e44ad445ab570fb199, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 516cf8c8d268c8e44ad445ab570fb199, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 516cf8c8d268c8e44ad445ab570fb199, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 516cf8c8d268c8e44ad445ab570fb199, type: 2}
+  m_RootGameObject: {fileID: 71992438}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &544818963
 GameObject:
   m_ObjectHideFlags: 0
@@ -8171,7 +8255,7 @@ GameObject:
   - 23: {fileID: 544818964}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8243,7 +8327,7 @@ GameObject:
   - 23: {fileID: 549674880}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8315,7 +8399,7 @@ GameObject:
   - 23: {fileID: 550019296}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8387,7 +8471,7 @@ GameObject:
   - 23: {fileID: 557081179}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8459,7 +8543,7 @@ GameObject:
   - 23: {fileID: 558696707}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8526,7 +8610,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 566755423}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: IKnoga_001_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8558,7 +8642,7 @@ GameObject:
   - 23: {fileID: 570566186}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8630,7 +8714,7 @@ GameObject:
   - 23: {fileID: 571372469}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8702,7 +8786,7 @@ GameObject:
   - 23: {fileID: 573420473}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8773,7 +8857,7 @@ GameObject:
   - 114: {fileID: 575197262}
   - 54: {fileID: 575197261}
   - 136: {fileID: 575197260}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SPIDER
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8861,13 +8945,14 @@ MonoBehaviour:
   target: {fileID: 0}
   moveSpeed: 3
   rotationSpeed: 3
-  range: 10
-  range2: 10
-  stop: 3
+  range: 20
+  range2: 20
+  stop: 10
   myTransform: {fileID: 0}
   attackDelayTime: 0
   tempoRotate: 0
   teia: {fileID: 100000, guid: b66994e8a03eed74caf37c0a92b16a88, type: 2}
+  attackRange: 15
 --- !u!1 &576462243
 GameObject:
   m_ObjectHideFlags: 0
@@ -8881,7 +8966,7 @@ GameObject:
   - 23: {fileID: 576462244}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8953,7 +9038,7 @@ GameObject:
   - 23: {fileID: 577108725}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9020,7 +9105,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 577261314}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 L Forearm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9040,6 +9125,150 @@ Transform:
   - {fileID: 453740285}
   m_Father: {fileID: 2124095550}
   m_RootOrder: 0
+--- !u!1 &579812926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 657019808fd22bc46a635c6548fa61f2, type: 2}
+  m_PrefabInternal: {fileID: 72397552}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 579812934}
+  - 20: {fileID: 579812933}
+  - 92: {fileID: 579812932}
+  - 124: {fileID: 579812931}
+  - 81: {fileID: 579812930}
+  - 143: {fileID: 579812929}
+  - 54: {fileID: 579812928}
+  - 114: {fileID: 579812927}
+  m_Layer: 0
+  m_Name: SandStorm
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &579812927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 657019808fd22bc46a635c6548fa61f2,
+    type: 2}
+  m_PrefabInternal: {fileID: 72397552}
+  m_GameObject: {fileID: 579812926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68ec2fe99d1108b9d0006a298d76c639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axes: 0
+  sensitivityX: 15
+  sensitivityY: 15
+  minimumX: -360
+  maximumX: 360
+  minimumY: -60
+  maximumY: 60
+--- !u!54 &579812928
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5400000, guid: 657019808fd22bc46a635c6548fa61f2,
+    type: 2}
+  m_PrefabInternal: {fileID: 72397552}
+  m_GameObject: {fileID: 579812926}
+  serializedVersion: 2
+  m_Mass: 1.00000001e-07
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!143 &579812929
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 14300000, guid: 657019808fd22bc46a635c6548fa61f2,
+    type: 2}
+  m_PrefabInternal: {fileID: 72397552}
+  m_GameObject: {fileID: 579812926}
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: .800000012
+  m_SlopeLimit: 90
+  m_StepOffset: .300000012
+  m_SkinWidth: .0799999982
+  m_MinMoveDistance: 0
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!81 &579812930
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8100000, guid: 657019808fd22bc46a635c6548fa61f2,
+    type: 2}
+  m_PrefabInternal: {fileID: 72397552}
+  m_GameObject: {fileID: 579812926}
+  m_Enabled: 1
+--- !u!124 &579812931
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 12400000, guid: 657019808fd22bc46a635c6548fa61f2,
+    type: 2}
+  m_PrefabInternal: {fileID: 72397552}
+  m_GameObject: {fileID: 579812926}
+  m_Enabled: 1
+--- !u!92 &579812932
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9200000, guid: 657019808fd22bc46a635c6548fa61f2,
+    type: 2}
+  m_PrefabInternal: {fileID: 72397552}
+  m_GameObject: {fileID: 579812926}
+  m_Enabled: 1
+--- !u!20 &579812933
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2000000, guid: 657019808fd22bc46a635c6548fa61f2,
+    type: 2}
+  m_PrefabInternal: {fileID: 72397552}
+  m_GameObject: {fileID: 579812926}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: .492647052, g: .442632854, b: .163008228, a: .0196078438}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: .300000012
+  far clip plane: 400
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: .0219999999
+--- !u!4 &579812934
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 657019808fd22bc46a635c6548fa61f2, type: 2}
+  m_PrefabInternal: {fileID: 72397552}
+  m_GameObject: {fileID: 579812926}
+  m_LocalRotation: {x: 0, y: -.126198977, z: 0, w: .992004991}
+  m_LocalPosition: {x: 427, y: 72, z: 9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 602428502}
+  - {fileID: 1673420271}
+  - {fileID: 846907954}
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
 --- !u!1 &581140251
 GameObject:
   m_ObjectHideFlags: 0
@@ -9053,7 +9282,7 @@ GameObject:
   - 23: {fileID: 581140252}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9125,7 +9354,7 @@ GameObject:
   - 23: {fileID: 581437358}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9192,7 +9421,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 582805971}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: IKnoga_002_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9224,7 +9453,7 @@ GameObject:
   - 23: {fileID: 585317254}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9296,7 +9525,7 @@ GameObject:
   - 23: {fileID: 588474720}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9363,7 +9592,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 591347821}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaB_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9396,7 +9625,7 @@ GameObject:
   - 23: {fileID: 592030770}
   m_Layer: 0
   m_Name: Paredao(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9455,6 +9684,170 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1646471590}
   m_RootOrder: 31
+--- !u!1001 &596848906
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 137592bce73a06e489c35a052cd3a478, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 52.0482788
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 137592bce73a06e489c35a052cd3a478, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 137592bce73a06e489c35a052cd3a478, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -.649879456
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 137592bce73a06e489c35a052cd3a478, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 137592bce73a06e489c35a052cd3a478, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 137592bce73a06e489c35a052cd3a478, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 137592bce73a06e489c35a052cd3a478, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 137592bce73a06e489c35a052cd3a478, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 137592bce73a06e489c35a052cd3a478, type: 2}
+  m_RootGameObject: {fileID: 1266040030}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1 &602428501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 657019808fd22bc46a635c6548fa61f2, type: 2}
+  m_PrefabInternal: {fileID: 72397552}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 602428502}
+  - 15: {fileID: 602428505}
+  - 12: {fileID: 602428504}
+  - 26: {fileID: 602428503}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &602428502
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 657019808fd22bc46a635c6548fa61f2, type: 2}
+  m_PrefabInternal: {fileID: 72397552}
+  m_GameObject: {fileID: 602428501}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2, y: .300000012, z: .600000024}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 579812934}
+  m_RootOrder: 0
+--- !u!26 &602428503
+ParticleRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2600000, guid: 657019808fd22bc46a635c6548fa61f2,
+    type: 2}
+  m_PrefabInternal: {fileID: 72397552}
+  m_GameObject: {fileID: 602428501}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 5c54115eb5a2a4c4fb1b11b8e6100bd8, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_CameraVelocityScale: 0
+  m_StretchParticles: 3
+  m_LengthScale: 9.68000031
+  m_VelocityScale: 0
+  m_MaxParticleSize: .25
+  UV Animation:
+    x Tile: 1
+    y Tile: 1
+    cycles: 1
+--- !u!12 &602428504
+ParticleAnimator:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1200000, guid: 657019808fd22bc46a635c6548fa61f2,
+    type: 2}
+  m_PrefabInternal: {fileID: 72397552}
+  m_GameObject: {fileID: 602428501}
+  Does Animate Color?: 1
+  colorAnimation[0]:
+    serializedVersion: 2
+    rgba: 169498742
+  colorAnimation[1]:
+    serializedVersion: 2
+    rgba: 3020833358
+  colorAnimation[2]:
+    serializedVersion: 2
+    rgba: 4278207567
+  colorAnimation[3]:
+    serializedVersion: 2
+    rgba: 3019911224
+  colorAnimation[4]:
+    serializedVersion: 2
+    rgba: 168306219
+  worldRotationAxis: {x: 0, y: 0, z: 0}
+  localRotationAxis: {x: 0, y: 0, z: 0}
+  sizeGrow: 0
+  rndForce: {x: 99, y: 0, z: 0}
+  force: {x: 0, y: 0, z: 5}
+  damping: 1
+  stopSimulation: 0
+  autodestruct: 0
+--- !u!15 &602428505
+EllipsoidParticleEmitter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1500000, guid: 657019808fd22bc46a635c6548fa61f2,
+    type: 2}
+  m_PrefabInternal: {fileID: 72397552}
+  m_GameObject: {fileID: 602428501}
+  serializedVersion: 2
+  m_Enabled: 1
+  m_Emit: 1
+  minSize: .00999999978
+  maxSize: .00999999978
+  minEnergy: 1
+  maxEnergy: 1
+  minEmission: 150
+  maxEmission: 150
+  worldVelocity: {x: 0, y: 0, z: 0}
+  localVelocity: {x: 0, y: 0, z: 0}
+  rndVelocity: {x: 0, y: 0, z: 0}
+  emitterVelocityScale: .0500000007
+  tangentVelocity: {x: 0, y: 0, z: 0}
+  angularVelocity: 0
+  rndAngularVelocity: 0
+  rndRotation: 0
+  Simulate in Worldspace?: 1
+  m_OneShot: 0
+  m_Ellipsoid: {x: 1, y: 1, z: 1}
+  m_MinEmitterRange: 4
 --- !u!1 &607179006
 GameObject:
   m_ObjectHideFlags: 0
@@ -9468,7 +9861,7 @@ GameObject:
   - 23: {fileID: 607179007}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9535,7 +9928,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 611504795}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaB_003_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9568,7 +9961,7 @@ GameObject:
   - 23: {fileID: 619937537}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9635,7 +10028,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 625022424}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 L Finger01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9667,7 +10060,7 @@ GameObject:
   - 23: {fileID: 635092783}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9739,7 +10132,7 @@ GameObject:
   - 23: {fileID: 636310303}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9811,7 +10204,7 @@ GameObject:
   - 23: {fileID: 639934857}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9878,7 +10271,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 640446223}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaC_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9911,7 +10304,7 @@ GameObject:
   - 23: {fileID: 646232419}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9983,7 +10376,7 @@ GameObject:
   - 23: {fileID: 647512979}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10055,7 +10448,7 @@ GameObject:
   - 23: {fileID: 648184085}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10127,7 +10520,7 @@ GameObject:
   - 23: {fileID: 649755659}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10194,7 +10587,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 651497402}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: IKzub_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10221,7 +10614,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 651650837}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10254,7 +10647,7 @@ GameObject:
   - 23: {fileID: 658201235}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10326,7 +10719,7 @@ GameObject:
   - 23: {fileID: 658253600}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10398,7 +10791,7 @@ GameObject:
   - 23: {fileID: 669706508}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10470,7 +10863,7 @@ GameObject:
   - 23: {fileID: 675464225}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10542,7 +10935,7 @@ GameObject:
   - 23: {fileID: 676010157}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10614,7 +11007,7 @@ GameObject:
   - 23: {fileID: 676496357}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10681,7 +11074,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 683724170}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 L Toe0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10713,7 +11106,7 @@ GameObject:
   - 23: {fileID: 688063295}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10780,7 +11173,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 688135580}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaD_003_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10812,7 +11205,7 @@ GameObject:
   - 23: {fileID: 703875239}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10884,7 +11277,7 @@ GameObject:
   - 23: {fileID: 705546202}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10956,7 +11349,7 @@ GameObject:
   - 23: {fileID: 707319579}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11028,7 +11421,7 @@ GameObject:
   - 23: {fileID: 709854653}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11100,7 +11493,7 @@ GameObject:
   - 23: {fileID: 714015813}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11172,7 +11565,7 @@ GameObject:
   - 23: {fileID: 716144849}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11244,7 +11637,7 @@ GameObject:
   - 23: {fileID: 720140701}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11316,7 +11709,7 @@ GameObject:
   - 23: {fileID: 722233329}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11388,7 +11781,7 @@ GameObject:
   - 23: {fileID: 723305361}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11460,7 +11853,7 @@ GameObject:
   - 23: {fileID: 726424813}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11532,7 +11925,7 @@ GameObject:
   - 23: {fileID: 729948494}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11604,7 +11997,7 @@ GameObject:
   - 23: {fileID: 730514874}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11676,7 +12069,7 @@ GameObject:
   - 23: {fileID: 735674057}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11743,7 +12136,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 739325968}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 R Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11777,7 +12170,7 @@ GameObject:
   - 23: {fileID: 740530540}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11849,7 +12242,7 @@ GameObject:
   - 23: {fileID: 746580447}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11921,7 +12314,7 @@ GameObject:
   - 23: {fileID: 750977635}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11993,7 +12386,7 @@ GameObject:
   - 23: {fileID: 753199864}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12065,7 +12458,7 @@ GameObject:
   - 23: {fileID: 754080828}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12137,7 +12530,7 @@ GameObject:
   - 23: {fileID: 757593250}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12209,7 +12602,7 @@ GameObject:
   - 23: {fileID: 758808349}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12281,7 +12674,7 @@ GameObject:
   - 23: {fileID: 772477051}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12353,7 +12746,7 @@ GameObject:
   - 23: {fileID: 802923666}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12420,7 +12813,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 808489022}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: IKnoga_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12452,7 +12845,7 @@ GameObject:
   - 23: {fileID: 822662916}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12524,7 +12917,7 @@ GameObject:
   - 23: {fileID: 838945169}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12591,7 +12984,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 839711921}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: IKnoga_002_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12623,7 +13016,7 @@ GameObject:
   - 23: {fileID: 839946652}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12682,6 +13075,123 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1646471590}
   m_RootOrder: 38
+--- !u!1 &846907953
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 846907954}
+  - 15: {fileID: 846907957}
+  - 12: {fileID: 846907956}
+  - 26: {fileID: 846907955}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &846907954
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 846907953}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -88.4078064, y: 4.09768677, z: 17.2030602}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 579812934}
+  m_RootOrder: 2
+--- !u!26 &846907955
+ParticleRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 846907953}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_CameraVelocityScale: 0
+  m_StretchParticles: 3
+  m_LengthScale: 2.20000005
+  m_VelocityScale: 0
+  m_MaxParticleSize: .920000017
+  UV Animation:
+    x Tile: 1
+    y Tile: 1
+    cycles: 1
+--- !u!12 &846907956
+ParticleAnimator:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 846907953}
+  Does Animate Color?: 1
+  colorAnimation[0]:
+    serializedVersion: 2
+    rgba: 173572741
+  colorAnimation[1]:
+    serializedVersion: 2
+    rgba: 3024840043
+  colorAnimation[2]:
+    serializedVersion: 2
+    rgba: 4280438382
+  colorAnimation[3]:
+    serializedVersion: 2
+    rgba: 3025103728
+  colorAnimation[4]:
+    serializedVersion: 2
+    rgba: 176356861
+  worldRotationAxis: {x: 0, y: 0, z: 0}
+  localRotationAxis: {x: 0, y: 0, z: 0}
+  sizeGrow: 0
+  rndForce: {x: 0, y: 0, z: 0}
+  force: {x: 1000, y: 0, z: 500}
+  damping: 1
+  stopSimulation: 0
+  autodestruct: 0
+--- !u!15 &846907957
+EllipsoidParticleEmitter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 846907953}
+  serializedVersion: 2
+  m_Enabled: 1
+  m_Emit: 1
+  minSize: 80
+  maxSize: 80
+  minEnergy: 3
+  maxEnergy: 3
+  minEmission: 15
+  maxEmission: 15
+  worldVelocity: {x: 1, y: 0, z: 0}
+  localVelocity: {x: 0, y: 0, z: 0}
+  rndVelocity: {x: 0, y: 0, z: 0}
+  emitterVelocityScale: .0500000007
+  tangentVelocity: {x: 0, y: 0, z: 0}
+  angularVelocity: 0
+  rndAngularVelocity: 0
+  rndRotation: 0
+  Simulate in Worldspace?: 0
+  m_OneShot: 0
+  m_Ellipsoid: {x: 5, y: 5, z: 1}
+  m_MinEmitterRange: 0
 --- !u!1 &849282080
 GameObject:
   m_ObjectHideFlags: 0
@@ -12695,7 +13205,7 @@ GameObject:
   - 23: {fileID: 849282081}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12767,7 +13277,7 @@ GameObject:
   - 23: {fileID: 852789782}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12839,7 +13349,7 @@ GameObject:
   - 23: {fileID: 854589393}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12911,7 +13421,7 @@ GameObject:
   - 23: {fileID: 856377192}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12983,7 +13493,7 @@ GameObject:
   - 23: {fileID: 858098302}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13055,7 +13565,7 @@ GameObject:
   - 23: {fileID: 859900288}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13157,6 +13667,230 @@ Prefab:
       propertyPath: teia
       value: 
       objectReference: {fileID: 100000, guid: b66994e8a03eed74caf37c0a92b16a88, type: 2}
+    - target: {fileID: 11400000, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: attackRange
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100018, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100020, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100022, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100024, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100026, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100030, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100034, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100036, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100038, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100040, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100042, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100044, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100046, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100050, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100052, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100054, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100056, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100058, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100060, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100062, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100064, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100066, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100068, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100070, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100072, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100074, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100076, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100078, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100080, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100082, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100084, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100086, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100088, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100090, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100092, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100094, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100096, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100098, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100100, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100102, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100104, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100106, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100108, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 50aeab29c20be1e42968fdaacbc646ee, type: 2}
   m_RootGameObject: {fileID: 575197257}
@@ -13175,7 +13909,7 @@ GameObject:
   - 23: {fileID: 864801768}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13242,7 +13976,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 865016925}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: IKnoga_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13333,7 +14067,7 @@ Transform:
   m_LocalScale: {x: 5.95955038, y: 5.95955276, z: 5.95955276}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
 --- !u!54 &868358558
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13363,7 +14097,7 @@ GameObject:
   - 23: {fileID: 874957031}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13435,7 +14169,7 @@ GameObject:
   - 23: {fileID: 881211438}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13502,7 +14236,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 883059949}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 L Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13536,7 +14270,7 @@ GameObject:
   - 23: {fileID: 885025351}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13608,7 +14342,7 @@ GameObject:
   - 23: {fileID: 886992719}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13680,7 +14414,7 @@ GameObject:
   - 23: {fileID: 887641441}
   m_Layer: 0
   m_Name: Paredao(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13752,7 +14486,7 @@ GameObject:
   - 23: {fileID: 890571848}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13822,7 +14556,7 @@ GameObject:
   - 33: {fileID: 892000874}
   - 23: {fileID: 892000873}
   - 114: {fileID: 892000872}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13899,7 +14633,7 @@ GameObject:
   - 23: {fileID: 894440881}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13971,7 +14705,7 @@ GameObject:
   - 23: {fileID: 894765095}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14043,7 +14777,7 @@ GameObject:
   - 23: {fileID: 903261407}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14115,7 +14849,7 @@ GameObject:
   - 23: {fileID: 904015893}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14187,7 +14921,7 @@ GameObject:
   - 23: {fileID: 917360835}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14259,7 +14993,7 @@ GameObject:
   - 23: {fileID: 919119705}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14326,7 +15060,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 921618316}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 L Finger31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14345,6 +15079,112 @@ Transform:
   m_Children: []
   m_Father: {fileID: 256387840}
   m_RootOrder: 0
+--- !u!1 &923285310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: d5e4975c342d0d742b1b6a670ffc8f8a, type: 2}
+  m_PrefabInternal: {fileID: 280377107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 923285316}
+  - 33: {fileID: 923285315}
+  - 65: {fileID: 923285314}
+  - 23: {fileID: 923285313}
+  - 95: {fileID: 923285312}
+  - 114: {fileID: 923285311}
+  m_Layer: 0
+  m_Name: TriggerPorta
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &923285311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: d5e4975c342d0d742b1b6a670ffc8f8a,
+    type: 2}
+  m_PrefabInternal: {fileID: 280377107}
+  m_GameObject: {fileID: 923285310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 290b5019e6d1ce0429dfdf8c48583aea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  porta: {fileID: 71992438}
+  player: {fileID: 100078, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+  comecando: 0
+  hasKey: 0
+  portaAberta: 0
+--- !u!95 &923285312
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: d5e4975c342d0d742b1b6a670ffc8f8a,
+    type: 2}
+  m_PrefabInternal: {fileID: 280377107}
+  m_GameObject: {fileID: 923285310}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 34773bce617d19c4ab0a59d18c167e1f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+--- !u!23 &923285313
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: d5e4975c342d0d742b1b6a670ffc8f8a,
+    type: 2}
+  m_PrefabInternal: {fileID: 280377107}
+  m_GameObject: {fileID: 923285310}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!65 &923285314
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500000, guid: d5e4975c342d0d742b1b6a670ffc8f8a,
+    type: 2}
+  m_PrefabInternal: {fileID: 280377107}
+  m_GameObject: {fileID: 923285310}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &923285315
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: d5e4975c342d0d742b1b6a670ffc8f8a,
+    type: 2}
+  m_PrefabInternal: {fileID: 280377107}
+  m_GameObject: {fileID: 923285310}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &923285316
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: d5e4975c342d0d742b1b6a670ffc8f8a, type: 2}
+  m_PrefabInternal: {fileID: 280377107}
+  m_GameObject: {fileID: 923285310}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.6754837, y: -1.01228714, z: 92.5139084}
+  m_LocalScale: {x: 10.2843304, y: 8.30424786, z: 12.2584953}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
 --- !u!1 &923294192
 GameObject:
   m_ObjectHideFlags: 0
@@ -14353,7 +15193,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 923294193}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: castingPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14385,7 +15225,7 @@ GameObject:
   - 23: {fileID: 927511686}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14457,7 +15297,7 @@ GameObject:
   - 23: {fileID: 928103279}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14529,7 +15369,7 @@ GameObject:
   - 23: {fileID: 935363653}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14601,7 +15441,7 @@ GameObject:
   - 23: {fileID: 937701513}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14673,7 +15513,7 @@ GameObject:
   - 23: {fileID: 940585559}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14745,7 +15585,7 @@ GameObject:
   - 23: {fileID: 941060448}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14817,7 +15657,7 @@ GameObject:
   - 23: {fileID: 951909931}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14884,7 +15724,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 956135614}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaB_001_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14917,7 +15757,7 @@ GameObject:
   - 23: {fileID: 961450864}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14989,7 +15829,7 @@ GameObject:
   - 23: {fileID: 965867313}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15061,7 +15901,7 @@ GameObject:
   - 23: {fileID: 966059261}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15133,7 +15973,7 @@ GameObject:
   - 23: {fileID: 966670931}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15200,7 +16040,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 968062569}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 L Thigh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15233,7 +16073,7 @@ GameObject:
   - 23: {fileID: 969086676}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15305,7 +16145,7 @@ GameObject:
   - 23: {fileID: 969354399}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15377,7 +16217,7 @@ GameObject:
   - 23: {fileID: 972550720}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15444,7 +16284,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 978213899}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 L Finger0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15477,7 +16317,7 @@ GameObject:
   - 23: {fileID: 981041235}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15549,7 +16389,7 @@ GameObject:
   - 23: {fileID: 981110647}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15621,7 +16461,7 @@ GameObject:
   - 23: {fileID: 981336063}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15693,7 +16533,7 @@ GameObject:
   - 23: {fileID: 981764381}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15765,7 +16605,7 @@ GameObject:
   - 23: {fileID: 985984580}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15837,7 +16677,7 @@ GameObject:
   - 23: {fileID: 994009308}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15909,7 +16749,7 @@ GameObject:
   - 23: {fileID: 995413620}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15981,7 +16821,7 @@ GameObject:
   - 23: {fileID: 995638748}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16053,7 +16893,7 @@ GameObject:
   - 23: {fileID: 1001389549}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16125,7 +16965,7 @@ GameObject:
   - 23: {fileID: 1003065512}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16192,7 +17032,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1003549148}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: zubB_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16224,7 +17064,7 @@ GameObject:
   - 23: {fileID: 1006561751}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16296,7 +17136,7 @@ GameObject:
   - 23: {fileID: 1009030112}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16368,7 +17208,7 @@ GameObject:
   - 23: {fileID: 1009826861}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16440,7 +17280,7 @@ GameObject:
   - 23: {fileID: 1024926355}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16512,7 +17352,7 @@ GameObject:
   - 23: {fileID: 1026383085}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16584,7 +17424,7 @@ GameObject:
   - 23: {fileID: 1031323443}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16656,7 +17496,7 @@ GameObject:
   - 23: {fileID: 1031721196}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16728,7 +17568,7 @@ GameObject:
   - 23: {fileID: 1035741110}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16800,7 +17640,7 @@ GameObject:
   - 23: {fileID: 1039537635}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16867,7 +17707,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1044453710}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 R Finger11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16899,7 +17739,7 @@ GameObject:
   - 23: {fileID: 1045311093}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16971,7 +17811,7 @@ GameObject:
   - 23: {fileID: 1047398820}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17043,7 +17883,7 @@ GameObject:
   - 23: {fileID: 1055727011}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17115,7 +17955,7 @@ GameObject:
   - 23: {fileID: 1061492392}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17187,7 +18027,7 @@ GameObject:
   - 23: {fileID: 1065353753}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17259,7 +18099,7 @@ GameObject:
   - 23: {fileID: 1070401343}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17331,7 +18171,7 @@ GameObject:
   - 23: {fileID: 1077206649}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17398,7 +18238,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1085905936}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: zubA_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17431,7 +18271,7 @@ GameObject:
   - 23: {fileID: 1085917821}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17503,7 +18343,7 @@ GameObject:
   - 23: {fileID: 1093523687}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17575,7 +18415,7 @@ GameObject:
   - 23: {fileID: 1096140158}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17647,7 +18487,7 @@ GameObject:
   - 23: {fileID: 1098723695}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17719,7 +18559,7 @@ GameObject:
   - 23: {fileID: 1100258376}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17791,7 +18631,7 @@ GameObject:
   - 23: {fileID: 1100967496}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17863,7 +18703,7 @@ GameObject:
   - 23: {fileID: 1101391248}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17935,7 +18775,7 @@ GameObject:
   - 23: {fileID: 1103289445}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18007,7 +18847,7 @@ GameObject:
   - 23: {fileID: 1107245042}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18079,7 +18919,7 @@ GameObject:
   - 23: {fileID: 1112653901}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18151,7 +18991,7 @@ GameObject:
   - 23: {fileID: 1114752072}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18223,7 +19063,7 @@ GameObject:
   - 23: {fileID: 1115255309}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18290,7 +19130,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1115830555}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaD_002_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18317,7 +19157,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1116970482}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaD_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18345,7 +19185,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1126157230}
   - 137: {fileID: 1126157231}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: baseMale
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18450,7 +19290,7 @@ GameObject:
   - 23: {fileID: 1126494147}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18517,7 +19357,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1129556373}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 R Clavicle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18550,7 +19390,7 @@ GameObject:
   - 23: {fileID: 1137793841}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18617,7 +19457,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1138027227}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 R UpperArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18650,7 +19490,7 @@ GameObject:
   - 23: {fileID: 1150246208}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18722,7 +19562,7 @@ GameObject:
   - 23: {fileID: 1152397961}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18794,7 +19634,7 @@ GameObject:
   - 23: {fileID: 1157177161}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18866,7 +19706,7 @@ GameObject:
   - 23: {fileID: 1163379493}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18938,7 +19778,7 @@ GameObject:
   - 23: {fileID: 1164936190}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19005,7 +19845,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1167027035}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaA_002_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19038,7 +19878,7 @@ GameObject:
   - 23: {fileID: 1168088876}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19110,7 +19950,7 @@ GameObject:
   - 23: {fileID: 1172926718}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19182,7 +20022,7 @@ GameObject:
   - 23: {fileID: 1173233453}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19254,7 +20094,7 @@ GameObject:
   - 23: {fileID: 1174089070}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19321,7 +20161,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1179359895}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19356,7 +20196,7 @@ GameObject:
   - 23: {fileID: 1179610174}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19428,7 +20268,7 @@ GameObject:
   - 23: {fileID: 1184124385}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19500,7 +20340,7 @@ GameObject:
   - 23: {fileID: 1188325334}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19572,7 +20412,7 @@ GameObject:
   - 23: {fileID: 1190807574}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19644,7 +20484,7 @@ GameObject:
   - 23: {fileID: 1193241939}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19716,7 +20556,7 @@ GameObject:
   - 23: {fileID: 1194621508}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19788,7 +20628,7 @@ GameObject:
   - 23: {fileID: 1202733393}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19860,7 +20700,7 @@ GameObject:
   - 23: {fileID: 1205132968}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19932,7 +20772,7 @@ GameObject:
   - 23: {fileID: 1207592624}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20004,7 +20844,7 @@ GameObject:
   - 23: {fileID: 1207595019}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20076,7 +20916,7 @@ GameObject:
   - 23: {fileID: 1208283348}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20148,7 +20988,7 @@ GameObject:
   - 23: {fileID: 1209429219}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20220,7 +21060,7 @@ GameObject:
   - 23: {fileID: 1210242769}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20292,7 +21132,7 @@ GameObject:
   - 23: {fileID: 1214127816}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20359,7 +21199,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1215793634}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: castingPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20391,7 +21231,7 @@ GameObject:
   - 23: {fileID: 1232209039}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20450,6 +21290,55 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1646471590}
   m_RootOrder: 202
+--- !u!1001 &1237666834
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: b66994e8a03eed74caf37c0a92b16a88, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -21.3117676
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b66994e8a03eed74caf37c0a92b16a88, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.59849024
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b66994e8a03eed74caf37c0a92b16a88, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 74.8572922
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b66994e8a03eed74caf37c0a92b16a88, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -6.23470555e-08
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b66994e8a03eed74caf37c0a92b16a88, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .923879564
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b66994e8a03eed74caf37c0a92b16a88, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.382683486
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b66994e8a03eed74caf37c0a92b16a88, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -1.50519099e-07
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b66994e8a03eed74caf37c0a92b16a88, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
+  m_ParentPrefab: {fileID: 100100000, guid: b66994e8a03eed74caf37c0a92b16a88, type: 2}
+  m_RootGameObject: {fileID: 1683577166}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1240708920
 GameObject:
   m_ObjectHideFlags: 0
@@ -20458,7 +21347,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1240708921}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 R Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20495,7 +21384,7 @@ GameObject:
   - 23: {fileID: 1241346975}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20562,7 +21451,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1244901451}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 R Forearm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20595,7 +21484,7 @@ GameObject:
   - 23: {fileID: 1250252357}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20667,7 +21556,7 @@ GameObject:
   - 23: {fileID: 1252447424}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20734,7 +21623,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1253922164}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: zubB_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20766,7 +21655,7 @@ GameObject:
   - 23: {fileID: 1258968937}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20833,7 +21722,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1264244591}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 L Finger1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20853,6 +21742,95 @@ Transform:
   - {fileID: 496840652}
   m_Father: {fileID: 453740285}
   m_RootOrder: 1
+--- !u!1 &1266040030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 137592bce73a06e489c35a052cd3a478, type: 2}
+  m_PrefabInternal: {fileID: 596848906}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1266040035}
+  - 33: {fileID: 1266040034}
+  - 64: {fileID: 1266040033}
+  - 23: {fileID: 1266040032}
+  - 95: {fileID: 1266040031}
+  m_Layer: 0
+  m_Name: "mar\xE9"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &1266040031
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: 137592bce73a06e489c35a052cd3a478,
+    type: 2}
+  m_PrefabInternal: {fileID: 596848906}
+  m_GameObject: {fileID: 1266040030}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5e1e6cb6024b14d42abd8d94db2d5f73, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+--- !u!23 &1266040032
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 137592bce73a06e489c35a052cd3a478,
+    type: 2}
+  m_PrefabInternal: {fileID: 596848906}
+  m_GameObject: {fileID: 1266040030}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 65836931803ab5b4fb9f60bd418f4100, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!64 &1266040033
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 137592bce73a06e489c35a052cd3a478,
+    type: 2}
+  m_PrefabInternal: {fileID: 596848906}
+  m_GameObject: {fileID: 1266040030}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &1266040034
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 137592bce73a06e489c35a052cd3a478,
+    type: 2}
+  m_PrefabInternal: {fileID: 596848906}
+  m_GameObject: {fileID: 1266040030}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1266040035
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 137592bce73a06e489c35a052cd3a478, type: 2}
+  m_PrefabInternal: {fileID: 596848906}
+  m_GameObject: {fileID: 1266040030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 52.0482788, y: -10, z: -.649879456}
+  m_LocalScale: {x: 50, y: 50, z: 50}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
 --- !u!1 &1268110546
 GameObject:
   m_ObjectHideFlags: 0
@@ -20866,7 +21844,7 @@ GameObject:
   - 23: {fileID: 1268110547}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20938,7 +21916,7 @@ GameObject:
   - 23: {fileID: 1271639335}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21010,7 +21988,7 @@ GameObject:
   - 23: {fileID: 1271681519}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21082,7 +22060,7 @@ GameObject:
   - 23: {fileID: 1272006627}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21149,7 +22127,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1277451829}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21190,7 +22168,7 @@ GameObject:
   - 23: {fileID: 1280122575}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21257,7 +22235,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1283920223}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 R Finger31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21289,7 +22267,7 @@ GameObject:
   - 23: {fileID: 1288213137}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21361,7 +22339,7 @@ GameObject:
   - 23: {fileID: 1289704834}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21431,7 +22409,7 @@ GameObject:
   - 33: {fileID: 1298488411}
   - 23: {fileID: 1298488410}
   - 114: {fileID: 1298488409}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21508,7 +22486,7 @@ GameObject:
   - 23: {fileID: 1301987228}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21580,7 +22558,7 @@ GameObject:
   - 23: {fileID: 1312450477}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21652,7 +22630,7 @@ GameObject:
   - 23: {fileID: 1316905028}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21724,7 +22702,7 @@ GameObject:
   - 23: {fileID: 1318198389}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21796,7 +22774,7 @@ GameObject:
   - 23: {fileID: 1319749375}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21863,7 +22841,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1323053589}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: zubA_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21891,7 +22869,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1324910895}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaD_001_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21923,7 +22901,7 @@ GameObject:
   - 23: {fileID: 1329316959}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21995,7 +22973,7 @@ GameObject:
   - 23: {fileID: 1337061534}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22067,7 +23045,7 @@ GameObject:
   - 23: {fileID: 1339142980}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22134,7 +23112,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1343816499}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 L Finger4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22167,7 +23145,7 @@ GameObject:
   - 23: {fileID: 1352135962}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22239,7 +23217,7 @@ GameObject:
   - 23: {fileID: 1356691137}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22311,7 +23289,7 @@ GameObject:
   - 23: {fileID: 1373270833}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22383,7 +23361,7 @@ GameObject:
   - 23: {fileID: 1378494576}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22455,7 +23433,7 @@ GameObject:
   - 23: {fileID: 1380500267}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22527,7 +23505,7 @@ GameObject:
   - 23: {fileID: 1382542782}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22599,7 +23577,7 @@ GameObject:
   - 23: {fileID: 1384160427}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22671,7 +23649,7 @@ GameObject:
   - 23: {fileID: 1386173673}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22743,7 +23721,7 @@ GameObject:
   - 23: {fileID: 1404892598}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22815,7 +23793,7 @@ GameObject:
   - 23: {fileID: 1405886668}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22887,7 +23865,7 @@ GameObject:
   - 23: {fileID: 1407326804}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22954,7 +23932,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1414675775}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 R Finger21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22981,7 +23959,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1420357625}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23017,7 +23995,7 @@ GameObject:
   - 23: {fileID: 1422372291}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23084,7 +24062,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1422531196}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaB_002_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23117,7 +24095,7 @@ GameObject:
   - 23: {fileID: 1430490865}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23189,7 +24167,7 @@ GameObject:
   - 23: {fileID: 1435854974}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23261,7 +24239,7 @@ GameObject:
   - 23: {fileID: 1438937980}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23333,7 +24311,7 @@ GameObject:
   - 23: {fileID: 1440533457}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23400,7 +24378,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1442551667}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 L Finger21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23432,7 +24410,7 @@ GameObject:
   - 23: {fileID: 1467054043}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23504,7 +24482,7 @@ GameObject:
   - 23: {fileID: 1467634723}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23576,7 +24554,7 @@ GameObject:
   - 23: {fileID: 1470076269}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23648,7 +24626,7 @@ GameObject:
   - 23: {fileID: 1471058752}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23720,7 +24698,7 @@ GameObject:
   - 23: {fileID: 1473616009}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23792,7 +24770,7 @@ GameObject:
   - 23: {fileID: 1483508175}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23859,7 +24837,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1484435037}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaA_002_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23887,7 +24865,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1484609671}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaB_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23920,7 +24898,7 @@ GameObject:
   - 23: {fileID: 1486840145}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23992,7 +24970,7 @@ GameObject:
   - 23: {fileID: 1487023179}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24064,7 +25042,7 @@ GameObject:
   - 23: {fileID: 1489842883}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24136,7 +25114,7 @@ GameObject:
   - 23: {fileID: 1490899758}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24203,7 +25181,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1500669499}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 R Finger0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24236,7 +25214,7 @@ GameObject:
   - 23: {fileID: 1500813168}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24308,7 +25286,7 @@ GameObject:
   - 23: {fileID: 1501134001}
   m_Layer: 0
   m_Name: Paredao(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24380,7 +25358,7 @@ GameObject:
   - 23: {fileID: 1502490272}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24452,7 +25430,7 @@ GameObject:
   - 23: {fileID: 1508515101}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24524,7 +25502,7 @@ GameObject:
   - 23: {fileID: 1519395178}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24596,7 +25574,7 @@ GameObject:
   - 23: {fileID: 1525905773}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24668,7 +25646,7 @@ GameObject:
   - 23: {fileID: 1535742557}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24735,7 +25713,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1537170151}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaB_003_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24768,7 +25746,7 @@ GameObject:
   - 23: {fileID: 1541915860}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24840,7 +25818,7 @@ GameObject:
   - 23: {fileID: 1550555557}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24912,7 +25890,7 @@ GameObject:
   - 23: {fileID: 1568914501}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24984,7 +25962,7 @@ GameObject:
   - 23: {fileID: 1582899513}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25056,7 +26034,7 @@ GameObject:
   - 23: {fileID: 1589726025}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25128,7 +26106,7 @@ GameObject:
   - 23: {fileID: 1590305837}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25195,7 +26173,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1590891246}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 L Calf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25228,7 +26206,7 @@ GameObject:
   - 23: {fileID: 1592445077}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25300,7 +26278,7 @@ GameObject:
   - 23: {fileID: 1592778784}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25372,7 +26350,7 @@ GameObject:
   - 23: {fileID: 1600105486}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25444,7 +26422,7 @@ GameObject:
   - 23: {fileID: 1604259504}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25516,7 +26494,7 @@ GameObject:
   - 23: {fileID: 1606557049}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25583,7 +26561,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1608646986}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thorso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25625,7 +26603,7 @@ GameObject:
   - 23: {fileID: 1609909905}
   m_Layer: 0
   m_Name: paredeMalhaY
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25697,7 +26675,7 @@ GameObject:
   - 23: {fileID: 1612907422}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25769,7 +26747,7 @@ GameObject:
   - 23: {fileID: 1613202625}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25841,7 +26819,7 @@ GameObject:
   - 23: {fileID: 1615412722}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25913,7 +26891,7 @@ GameObject:
   - 23: {fileID: 1619337096}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25985,7 +26963,7 @@ GameObject:
   - 23: {fileID: 1625695513}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26057,7 +27035,7 @@ GameObject:
   - 23: {fileID: 1626213503}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26124,7 +27102,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1627581117}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: IKnoga_003_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26156,7 +27134,7 @@ GameObject:
   - 23: {fileID: 1629042571}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26228,7 +27206,7 @@ GameObject:
   - 23: {fileID: 1630630009}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26295,7 +27273,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1635172523}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 R Finger1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26328,7 +27306,7 @@ GameObject:
   - 23: {fileID: 1635217551}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26400,7 +27378,7 @@ GameObject:
   - 23: {fileID: 1639102691}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26472,7 +27450,7 @@ GameObject:
   - 23: {fileID: 1643205577}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26544,7 +27522,7 @@ GameObject:
   - 23: {fileID: 1646471591}
   m_Layer: 0
   m_Name: Maze
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26984,7 +27962,7 @@ Transform:
   - {fileID: 2093087008}
   - {fileID: 1609909904}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 10
 --- !u!23 &1646471591
 Renderer:
   m_ObjectHideFlags: 0
@@ -27038,7 +28016,7 @@ GameObject:
   - 23: {fileID: 1648522145}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27110,7 +28088,7 @@ GameObject:
   - 23: {fileID: 1650277611}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27182,7 +28160,7 @@ GameObject:
   - 23: {fileID: 1662368067}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27254,7 +28232,7 @@ GameObject:
   - 23: {fileID: 1664916948}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27321,7 +28299,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1667299430}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: IKnoga_001_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27340,6 +28318,126 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1277451829}
   m_RootOrder: 0
+--- !u!1 &1673420270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 657019808fd22bc46a635c6548fa61f2, type: 2}
+  m_PrefabInternal: {fileID: 72397552}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1673420271}
+  - 15: {fileID: 1673420274}
+  - 12: {fileID: 1673420273}
+  - 26: {fileID: 1673420272}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1673420271
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 657019808fd22bc46a635c6548fa61f2, type: 2}
+  m_PrefabInternal: {fileID: 72397552}
+  m_GameObject: {fileID: 1673420270}
+  m_LocalRotation: {x: 0, y: .0348994508, z: 0, w: -.999390841}
+  m_LocalPosition: {x: -13.6707287, y: -1, z: .325947165}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 579812934}
+  m_RootOrder: 1
+--- !u!26 &1673420272
+ParticleRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2600002, guid: 657019808fd22bc46a635c6548fa61f2,
+    type: 2}
+  m_PrefabInternal: {fileID: 72397552}
+  m_GameObject: {fileID: 1673420270}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: f60723ea36fc34476899abc83a5309c9, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_CameraVelocityScale: 0
+  m_StretchParticles: 3
+  m_LengthScale: -.600000024
+  m_VelocityScale: 0
+  m_MaxParticleSize: .5
+  UV Animation:
+    x Tile: 1
+    y Tile: 1
+    cycles: 1
+--- !u!12 &1673420273
+ParticleAnimator:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1200002, guid: 657019808fd22bc46a635c6548fa61f2,
+    type: 2}
+  m_PrefabInternal: {fileID: 72397552}
+  m_GameObject: {fileID: 1673420270}
+  Does Animate Color?: 1
+  colorAnimation[0]:
+    serializedVersion: 2
+    rgba: 184483582
+  colorAnimation[1]:
+    serializedVersion: 2
+    rgba: 3025241220
+  colorAnimation[2]:
+    serializedVersion: 2
+    rgba: 4283728003
+  colorAnimation[3]:
+    serializedVersion: 2
+    rgba: 3025699975
+  colorAnimation[4]:
+    serializedVersion: 2
+    rgba: 173507462
+  worldRotationAxis: {x: 0, y: 0, z: 0}
+  localRotationAxis: {x: 0, y: 0, z: 0}
+  sizeGrow: 0
+  rndForce: {x: 0, y: 11, z: 0}
+  force: {x: 11, y: 0, z: 1}
+  damping: 1
+  stopSimulation: 0
+  autodestruct: 0
+--- !u!15 &1673420274
+EllipsoidParticleEmitter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1500002, guid: 657019808fd22bc46a635c6548fa61f2,
+    type: 2}
+  m_PrefabInternal: {fileID: 72397552}
+  m_GameObject: {fileID: 1673420270}
+  serializedVersion: 2
+  m_Enabled: 1
+  m_Emit: 1
+  minSize: 22
+  maxSize: 22
+  minEnergy: 6
+  maxEnergy: 6
+  minEmission: 50
+  maxEmission: 50
+  worldVelocity: {x: 0, y: 0, z: 0}
+  localVelocity: {x: 0, y: 0, z: 0}
+  rndVelocity: {x: 0, y: 0, z: 0}
+  emitterVelocityScale: .0500000007
+  tangentVelocity: {x: 0, y: 0, z: 0}
+  angularVelocity: 0
+  rndAngularVelocity: 0
+  rndRotation: 0
+  Simulate in Worldspace?: 0
+  m_OneShot: 0
+  m_Ellipsoid: {x: 6, y: 6, z: .5}
+  m_MinEmitterRange: 2
 --- !u!1 &1674197062
 GameObject:
   m_ObjectHideFlags: 0
@@ -27348,7 +28446,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1674197063}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaD_002_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27380,7 +28478,7 @@ GameObject:
   - 23: {fileID: 1674766826}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27452,7 +28550,7 @@ GameObject:
   - 23: {fileID: 1678331214}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27524,7 +28622,7 @@ GameObject:
   - 23: {fileID: 1678943025}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27596,7 +28694,7 @@ GameObject:
   - 23: {fileID: 1681638890}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27668,7 +28766,7 @@ GameObject:
   - 23: {fileID: 1682115665}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27727,6 +28825,93 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1646471590}
   m_RootOrder: 128
+--- !u!1 &1683577166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: b66994e8a03eed74caf37c0a92b16a88, type: 2}
+  m_PrefabInternal: {fileID: 1237666834}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1683577172}
+  - 33: {fileID: 1683577171}
+  - 65: {fileID: 1683577170}
+  - 23: {fileID: 1683577169}
+  - 114: {fileID: 1683577168}
+  m_Layer: 11
+  m_Name: teia
+  m_TagString: Teia
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1683577168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: b66994e8a03eed74caf37c0a92b16a88,
+    type: 2}
+  m_PrefabInternal: {fileID: 1237666834}
+  m_GameObject: {fileID: 1683577166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5109ad6e3f354949abec82e6e9f4e4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidade: 0
+  posicaoInicial: {x: 0, y: 0, z: 0}
+--- !u!23 &1683577169
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: b66994e8a03eed74caf37c0a92b16a88,
+    type: 2}
+  m_PrefabInternal: {fileID: 1237666834}
+  m_GameObject: {fileID: 1683577166}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 595a3f12f12894e48bc2662cc5256dc5, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!65 &1683577170
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500000, guid: b66994e8a03eed74caf37c0a92b16a88,
+    type: 2}
+  m_PrefabInternal: {fileID: 1237666834}
+  m_GameObject: {fileID: 1683577166}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1683577171
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: b66994e8a03eed74caf37c0a92b16a88,
+    type: 2}
+  m_PrefabInternal: {fileID: 1237666834}
+  m_GameObject: {fileID: 1683577166}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1683577172
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: b66994e8a03eed74caf37c0a92b16a88, type: 2}
+  m_PrefabInternal: {fileID: 1237666834}
+  m_GameObject: {fileID: 1683577166}
+  m_LocalRotation: {x: -6.23470555e-08, y: .923879564, z: -.382683486, w: -1.50519099e-07}
+  m_LocalPosition: {x: -21.3117676, y: 2.59849024, z: 74.8572922}
+  m_LocalScale: {x: 2.8004508, y: 1.86269486, z: .000205254095}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
 --- !u!1 &1691219223
 GameObject:
   m_ObjectHideFlags: 0
@@ -27740,7 +28925,7 @@ GameObject:
   - 23: {fileID: 1691219224}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27812,7 +28997,7 @@ GameObject:
   - 23: {fileID: 1694375551}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27884,7 +29069,7 @@ GameObject:
   - 23: {fileID: 1704846456}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27956,7 +29141,7 @@ GameObject:
   - 23: {fileID: 1711907566}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28028,7 +29213,7 @@ GameObject:
   - 23: {fileID: 1714311021}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28100,7 +29285,7 @@ GameObject:
   - 23: {fileID: 1714413580}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28172,7 +29357,7 @@ GameObject:
   - 23: {fileID: 1719193397}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28244,7 +29429,7 @@ GameObject:
   - 23: {fileID: 1734610412}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28316,7 +29501,7 @@ GameObject:
   - 23: {fileID: 1739431586}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28388,7 +29573,7 @@ GameObject:
   - 23: {fileID: 1741811576}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28460,7 +29645,7 @@ GameObject:
   - 23: {fileID: 1743989355}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28532,7 +29717,7 @@ GameObject:
   - 23: {fileID: 1745177657}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28628,7 +29813,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400078, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
       propertyPath: walkSpeed
@@ -28686,6 +29871,206 @@ Prefab:
       propertyPath: CrouchWalkSpeed
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 100060, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100022, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100042, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100020, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100038, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100074, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100078, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100080, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100082, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100064, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100088, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100030, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100018, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100070, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100026, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100056, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100092, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100066, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100094, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100096, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100076, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100086, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100098, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100040, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100036, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100044, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100062, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100058, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100072, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100024, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100050, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100084, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100034, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100046, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100090, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100052, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100054, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100068, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fc8cf25119c17cd4ab71258154e78544, type: 2}
   m_RootGameObject: {fileID: 316323504}
@@ -28704,7 +30089,7 @@ GameObject:
   - 23: {fileID: 1761121641}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28776,7 +30161,7 @@ GameObject:
   - 23: {fileID: 1761504403}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28848,7 +30233,7 @@ GameObject:
   - 23: {fileID: 1762661301}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28920,7 +30305,7 @@ GameObject:
   - 23: {fileID: 1768191430}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28992,7 +30377,7 @@ GameObject:
   - 23: {fileID: 1768903673}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29064,7 +30449,7 @@ GameObject:
   - 23: {fileID: 1769514870}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29123,103 +30508,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1646471590}
   m_RootOrder: 184
---- !u!1 &1770554859
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1770554864}
-  - 20: {fileID: 1770554863}
-  - 92: {fileID: 1770554862}
-  - 124: {fileID: 1770554861}
-  - 81: {fileID: 1770554860}
-  - 114: {fileID: 1770554865}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &1770554860
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1770554859}
-  m_Enabled: 1
---- !u!124 &1770554861
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1770554859}
-  m_Enabled: 1
---- !u!92 &1770554862
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1770554859}
-  m_Enabled: 1
---- !u!20 &1770554863
-Camera:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1770554859}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: .300000012
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_HDR: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: .0219999999
---- !u!4 &1770554864
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1770554859}
-  m_LocalRotation: {x: -.139941111, y: 0, z: 0, w: .990159869}
-  m_LocalPosition: {x: -50.7123375, y: -.0123882294, z: 67.1114731}
-  m_LocalScale: {x: 1, y: .959699392, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
---- !u!114 &1770554865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1770554859}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e72fd6032a20564eb8a76be89522904, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skin: {fileID: 0}
 --- !u!1 &1771603883
 GameObject:
   m_ObjectHideFlags: 0
@@ -29233,7 +30521,7 @@ GameObject:
   - 23: {fileID: 1771603884}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29305,7 +30593,7 @@ GameObject:
   - 23: {fileID: 1773052155}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29377,7 +30665,7 @@ GameObject:
   - 23: {fileID: 1774853779}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29449,7 +30737,7 @@ GameObject:
   - 23: {fileID: 1780602887}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29516,7 +30804,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1782724499}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaD_003_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29548,7 +30836,7 @@ GameObject:
   - 23: {fileID: 1785874460}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29620,7 +30908,7 @@ GameObject:
   - 23: {fileID: 1789832871}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29692,7 +30980,7 @@ GameObject:
   - 23: {fileID: 1790296627}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29759,7 +31047,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1801831891}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 L Finger41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29791,7 +31079,7 @@ GameObject:
   - 23: {fileID: 1807283546}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29863,7 +31151,7 @@ GameObject:
   - 23: {fileID: 1820448136}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29935,7 +31223,7 @@ GameObject:
   - 23: {fileID: 1822698373}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30007,7 +31295,7 @@ GameObject:
   - 23: {fileID: 1822831933}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30079,7 +31367,7 @@ GameObject:
   - 23: {fileID: 1825650878}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30211,7 +31499,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
 --- !u!54 &1827622779
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -30236,7 +31524,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1838898310}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: IKzub_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30263,7 +31551,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1840703592}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaD_001_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30295,7 +31583,7 @@ GameObject:
   - 23: {fileID: 1842550241}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30362,7 +31650,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1842879228}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaA_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30395,7 +31683,7 @@ GameObject:
   - 23: {fileID: 1843550442}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30462,7 +31750,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1846735900}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaA_001_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30490,7 +31778,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1850700334}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaC_002_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30518,7 +31806,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1850766861}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 R Finger2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30551,7 +31839,7 @@ GameObject:
   - 23: {fileID: 1853864323}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30623,7 +31911,7 @@ GameObject:
   - 23: {fileID: 1855088712}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30690,7 +31978,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1860385837}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaC_003_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30723,7 +32011,7 @@ GameObject:
   - 23: {fileID: 1863048164}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30795,7 +32083,7 @@ GameObject:
   - 23: {fileID: 1866250300}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30867,7 +32155,7 @@ GameObject:
   - 23: {fileID: 1866683912}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30934,7 +32222,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1866973322}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaC_001_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30967,7 +32255,7 @@ GameObject:
   - 23: {fileID: 1868563723}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31039,7 +32327,7 @@ GameObject:
   - 23: {fileID: 1870147569}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31106,7 +32394,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1874135364}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaC_001_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31139,7 +32427,7 @@ GameObject:
   - 23: {fileID: 1874428225}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31206,7 +32494,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1875324158}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 R Thigh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31239,7 +32527,7 @@ GameObject:
   - 23: {fileID: 1875836829}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31306,7 +32594,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1880152675}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31339,7 +32627,7 @@ GameObject:
   - 23: {fileID: 1882973701}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31406,7 +32694,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1883801806}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaB_001_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31439,7 +32727,7 @@ GameObject:
   - 23: {fileID: 1884202616}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31511,7 +32799,7 @@ GameObject:
   - 23: {fileID: 1884776007}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31583,7 +32871,7 @@ GameObject:
   - 23: {fileID: 1885429163}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31655,7 +32943,7 @@ GameObject:
   - 23: {fileID: 1886685695}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31714,77 +33002,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1646471590}
   m_RootOrder: 377
---- !u!1 &1893593216
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 2}
-  m_PrefabInternal: {fileID: 446375416}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1893593220}
-  - 33: {fileID: 1893593219}
-  - 23: {fileID: 1893593218}
-  - 114: {fileID: 1893593217}
-  m_Layer: 4
-  m_Name: Daylight Simple Water
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1893593217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: 9485b0c79d11e2e4d0007da98d76c639,
-    type: 2}
-  m_PrefabInternal: {fileID: 446375416}
-  m_GameObject: {fileID: 1893593216}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d2f50a8e0bb841a5aaa90ae55db8849, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!23 &1893593218
-Renderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 9485b0c79d11e2e4d0007da98d76c639,
-    type: 2}
-  m_PrefabInternal: {fileID: 446375416}
-  m_GameObject: {fileID: 1893593216}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 2100000, guid: 52b7d70b1de7c4ce09662b77c14d9fda, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1893593219
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 9485b0c79d11e2e4d0007da98d76c639,
-    type: 2}
-  m_PrefabInternal: {fileID: 446375416}
-  m_GameObject: {fileID: 1893593216}
-  m_Mesh: {fileID: 4300006, guid: ce8d79c79d11b8f9d00076e98d76c639, type: 3}
---- !u!4 &1893593220
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 2}
-  m_PrefabInternal: {fileID: 446375416}
-  m_GameObject: {fileID: 1893593216}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 141.11821, y: -6, z: 5.22110748}
-  m_LocalScale: {x: 121.643318, y: 7.60271358, z: 121.643417}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
 --- !u!1 &1895181107
 GameObject:
   m_ObjectHideFlags: 0
@@ -31798,7 +33015,7 @@ GameObject:
   - 23: {fileID: 1895181108}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31870,7 +33087,7 @@ GameObject:
   - 23: {fileID: 1899169767}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31942,7 +33159,7 @@ GameObject:
   - 23: {fileID: 1899472142}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32014,7 +33231,7 @@ GameObject:
   - 23: {fileID: 1899951954}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32086,7 +33303,7 @@ GameObject:
   - 23: {fileID: 1902835995}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32158,7 +33375,7 @@ GameObject:
   - 23: {fileID: 1903748402}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32279,7 +33496,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
 --- !u!1 &1919848061
 GameObject:
   m_ObjectHideFlags: 0
@@ -32293,7 +33510,7 @@ GameObject:
   - 23: {fileID: 1919848062}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32365,7 +33582,7 @@ GameObject:
   - 23: {fileID: 1925194442}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32432,7 +33649,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1926033528}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bone_003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32465,7 +33682,7 @@ GameObject:
   - 23: {fileID: 1937474205}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32537,7 +33754,7 @@ GameObject:
   - 23: {fileID: 1939620408}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32609,7 +33826,7 @@ GameObject:
   - 23: {fileID: 1943275120}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32676,7 +33893,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1944853023}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32709,7 +33926,7 @@ GameObject:
   - 23: {fileID: 1945696411}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32781,7 +33998,7 @@ GameObject:
   - 23: {fileID: 1955783660}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32848,7 +34065,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1957707631}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: castingPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32880,7 +34097,7 @@ GameObject:
   - 23: {fileID: 1963074368}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32952,7 +34169,7 @@ GameObject:
   - 23: {fileID: 1968929383}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33024,7 +34241,7 @@ GameObject:
   - 23: {fileID: 1970617072}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33091,7 +34308,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1982150821}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 R Toe0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33123,7 +34340,7 @@ GameObject:
   - 23: {fileID: 1988573575}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33195,7 +34412,7 @@ GameObject:
   - 23: {fileID: 1994803008}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33267,7 +34484,7 @@ GameObject:
   - 23: {fileID: 2003871569}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33339,7 +34556,7 @@ GameObject:
   - 23: {fileID: 2004151301}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33411,7 +34628,7 @@ GameObject:
   - 23: {fileID: 2010151593}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33483,7 +34700,7 @@ GameObject:
   - 23: {fileID: 2012673708}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33555,7 +34772,7 @@ GameObject:
   - 23: {fileID: 2012713782}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33627,7 +34844,7 @@ GameObject:
   - 23: {fileID: 2014131042}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33699,7 +34916,7 @@ GameObject:
   - 23: {fileID: 2014953839}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33771,7 +34988,7 @@ GameObject:
   - 23: {fileID: 2017557036}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33838,7 +35055,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2021940658}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 R Calf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33866,7 +35083,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2022949752}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaD_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33898,7 +35115,7 @@ GameObject:
   - 23: {fileID: 2023543866}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33970,7 +35187,7 @@ GameObject:
   - 23: {fileID: 2026768719}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34042,7 +35259,7 @@ GameObject:
   - 23: {fileID: 2028106720}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34114,7 +35331,7 @@ GameObject:
   - 23: {fileID: 2031421056}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34186,7 +35403,7 @@ GameObject:
   - 23: {fileID: 2037868179}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34258,7 +35475,7 @@ GameObject:
   - 23: {fileID: 2059066789}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34330,7 +35547,7 @@ GameObject:
   - 23: {fileID: 2061619895}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34400,7 +35617,7 @@ GameObject:
   - 33: {fileID: 2063600686}
   - 23: {fileID: 2063600685}
   - 114: {fileID: 2063600684}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34477,7 +35694,7 @@ GameObject:
   - 23: {fileID: 2066267871}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34549,7 +35766,7 @@ GameObject:
   - 23: {fileID: 2067802567}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34616,7 +35833,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2074712620}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaC_002_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34644,7 +35861,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2074989425}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaC_003_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34677,7 +35894,7 @@ GameObject:
   - 23: {fileID: 2086482086}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34749,7 +35966,7 @@ GameObject:
   - 23: {fileID: 2093087005}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34821,7 +36038,7 @@ GameObject:
   - 23: {fileID: 2093153253}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34893,7 +36110,7 @@ GameObject:
   - 23: {fileID: 2100552216}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34965,7 +36182,7 @@ GameObject:
   - 23: {fileID: 2105456588}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35032,7 +36249,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2114429450}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaB_002_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35060,7 +36277,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2124095550}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 L UpperArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35093,7 +36310,7 @@ GameObject:
   - 23: {fileID: 2124938827}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35160,7 +36377,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2126025698}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: nogaA_003_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35188,7 +36405,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2128893021}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bip01 Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35216,7 +36433,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2133925804}
   - 137: {fileID: 2133925805}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35332,7 +36549,7 @@ GameObject:
   - 23: {fileID: 2136356879}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35404,7 +36621,7 @@ GameObject:
   - 23: {fileID: 2146961688}
   m_Layer: 0
   m_Name: Labirinto(Clone)
-  m_TagString: Untagged
+  m_TagString: labirinto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

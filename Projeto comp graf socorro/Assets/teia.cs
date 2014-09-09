@@ -2,8 +2,7 @@
 using System.Collections;
 
 public class teia : MonoBehaviour {
-
-	float velocidade = 20;
+	float velocidade = 10;
 	// Use this for initialization
 
 
@@ -15,5 +14,6 @@ public class teia : MonoBehaviour {
 		transform.Translate (0, 0, velocidade * Time.deltaTime);
 
 	}
+
 	
 }

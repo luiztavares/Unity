@@ -17,6 +17,8 @@ public var jumpAnimationSpeed : float = 1.15;
 public var landAnimationSpeed : float = 1.0;
 public var CrouchWalkSpeed : float = 0.5;
 public var posicao : Vector3;
+public var hasKey : boolean = false;
+public var comecando: boolean = true;
 
 private var _animation : Animation;
 

@@ -11,10 +11,10 @@ GameObject:
   - 33: {fileID: 3300000}
   - 65: {fileID: 6500000}
   - 23: {fileID: 2300000}
-  - 114: {fileID: 11400000}
-  m_Layer: 0
+  - 114: {fileID: 11400002}
+  m_Layer: 11
   m_Name: teia
-  m_TagString: Untagged
+  m_TagString: Teia
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25,7 +25,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -4.37113883e-08}
+  m_LocalRotation: {x: -1.67276273e-08, y: -.923879564, z: .382683486, w: -4.03840588e-08}
   m_LocalPosition: {x: -21.3117676, y: -1.62074041, z: 74.8572922}
   m_LocalScale: {x: 2.8004508, y: 1.86269486, z: .000205254095}
   m_Children: []
@@ -69,8 +69,8 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 2, z: 0}
---- !u!114 &11400000
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -78,9 +78,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6a17c32f2f2d03448607c962677f2d7, type: 3}
+  m_Script: {fileID: 11500000, guid: e5109ad6e3f354949abec82e6e9f4e4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velocidade: 0
+  posicaoInicial: {x: 0, y: 0, z: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

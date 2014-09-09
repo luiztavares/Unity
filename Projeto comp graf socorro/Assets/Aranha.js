@@ -4,13 +4,14 @@
     var target : Transform; //the enemy's target
     var moveSpeed = 3; //move speed
     var rotationSpeed = 3; //speed of turning
-    var range : float=10f;
-    var range2 : float=10f;
-    var stop : float=0;
+    var range : float=20f;
+    var range2 : float=20f;
+    var stop : float=10;
     var myTransform : Transform; //current transform data of this enemy
     var attackDelayTime : float;
     var tempoRotate : float;
     var teia : GameObject;
+    var attackRange : float;
     
     function Awake()
     {
@@ -48,18 +49,24 @@
     else if (distance<=stop) {
     myTransform.rotation = Quaternion.Slerp(myTransform.rotation,
     Quaternion.LookRotation(target.position - myTransform.position), rotationSpeed*Time.deltaTime);
-    attackDelayTime += Time.deltaTime;
-    if(attackDelayTime <= 0.2)
-    	animation.Play("Walk");
-    else	
-    animation.Play("Attack");
+  
+    
+    animation["Attack"].wrapMode = WrapMode.Once;
+    animation["Attack"].speed = 1;
+    animation.CrossFade("Attack");
     
     
-    if(attackDelayTime >= 1.1){
-    	Instantiate(teia, myTransform.position, myTransform.rotation);
-    	attackDelayTime = 0;
-
-    }		
+        
+    if((animation["Attack"].time % 1) >= 0.9){
+    
+    	attackDelayTime += Time.deltaTime;
+    	if (attackDelayTime >= 0.07){
+    		Instantiate(teia, Vector3(transform.position.x,transform.position.y+1,transform.position.z)
+    			, myTransform.rotation);
+			attackDelayTime = 0;
+		}
+    }
+    else attackDelayTime = 0;		
     }
     else { 
     	if (tempoRotate > 2) {

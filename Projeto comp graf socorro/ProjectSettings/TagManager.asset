@@ -6,6 +6,9 @@ TagManager:
   - chao
   - chave
   - terreno
+  - Aranha
+  - Teia
+  - labirinto
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
@@ -17,8 +20,8 @@ TagManager:
   Builtin Layer 7: 
   User Layer 8: terreno
   User Layer 9: player
-  User Layer 10: 
-  User Layer 11: 
+  User Layer 10: Aranha
+  User Layer 11: Teia
   User Layer 12: 
   User Layer 13: 
   User Layer 14: 

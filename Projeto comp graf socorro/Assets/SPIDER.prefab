@@ -1594,9 +1594,9 @@ MonoBehaviour:
   target: {fileID: 0}
   moveSpeed: 3
   rotationSpeed: 3
-  range: 10
-  range2: 10
-  stop: 3
+  range: 20
+  range2: 20
+  stop: 10
   myTransform: {fileID: 0}
   attackDelayTime: 0
   tempoRotate: 0
