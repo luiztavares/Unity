@@ -29,7 +29,8 @@ private var heightVelocity = 0.0;
 private var angleVelocity = 0.0;
 private var snap = false;
 private var controller : ThirdPersonController;
-private var targetHeight = 100000.0; 
+private var targetHeight = 100000.0;
+var visaoDeMundo = false; 
 
 function Awake ()
 {
@@ -227,4 +228,22 @@ function SetUpRotation (centerPos : Vector3, headPos : Vector3)
 function GetCenterOffset ()
 {
 	return centerOffset;
+}
+
+function Update(){
+	
+
+
+	 if (Input.GetAxis("Mouse ScrollWheel") > 0) // back
+{
+	if (height> 4)
+		height -= 1;
+ 
+}
+if (Input.GetAxis("Mouse ScrollWheel") < 0) // forward
+{		
+		if (height <  20)
+		height += 1;
+}
+
 }
