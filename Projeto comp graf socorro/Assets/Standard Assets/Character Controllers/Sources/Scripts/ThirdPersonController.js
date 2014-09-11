@@ -344,14 +344,14 @@ function Update() {
 		if(_characterState == CharacterState.Jumping) 
 		{
 			if(!jumpingReachedApex) {
-				_animation[jumpPoseAnimation.name].speed = jumpAnimationSpeed;
-				_animation[jumpPoseAnimation.name].wrapMode = WrapMode.ClampForever;
-				_animation.CrossFade(jumpPoseAnimation.name);
-			} else {
+				_animation[jumpPoseAnimation.name].speed = 0.4;
+				_animation[jumpPoseAnimation.name].wrapMode = WrapMode.Once;
+				_animation.Play(jumpPoseAnimation.name);
+			} /*else {
 				_animation[jumpPoseAnimation.name].speed = -landAnimationSpeed;
-				_animation[jumpPoseAnimation.name].wrapMode = WrapMode.ClampForever;
+				_animation[jumpPoseAnimation.name].wrapMode = WrapMode.Once;
 				_animation.CrossFade(jumpPoseAnimation.name);				
-			}
+			}*/
 		} 
 		else 
 		{	
@@ -481,3 +481,9 @@ function Reset ()
 	gameObject.tag = "Player";
 }
 
+function OnTriggerEnter(other : Collider){
+	 
+	 
+	print("colidi com algo"+ other.name);
+
+}

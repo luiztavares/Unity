@@ -31,6 +31,8 @@ private var snap = false;
 private var controller : ThirdPersonController;
 private var targetHeight = 100000.0;
 var visaoDeMundo = false; 
+var mouseX : float;
+var mouseY : float;
 
 function Awake ()
 {
@@ -242,8 +244,11 @@ function Update(){
 }
 if (Input.GetAxis("Mouse ScrollWheel") < 0) // forward
 {		
-		if (height <  20)
-		height += 1;
+	if (height< 22)
+	height += 1;
+
+
 }
 
+	
 }

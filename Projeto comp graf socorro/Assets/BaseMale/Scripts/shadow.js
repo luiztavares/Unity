@@ -20,7 +20,7 @@ function LateUpdate () {
 	//Shadow position.
 	transform.position = castingPoint.position;
 	var hits : RaycastHit[];
-	hits = Physics.RaycastAll(transform.position + Vector3.up*0.5, -Vector3.up);
+	hits = Physics.RaycastAll(Vector3(transform.position.x,transform.position.y-1,transform.position.z) + Vector3.up*0.5, -Vector3.up);
 	var maxShadowYPosition : float = -999999;
 	for (var i = 0; i < hits.Length; i++){
 		var hit : RaycastHit = hits[i];
