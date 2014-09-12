@@ -29,10 +29,7 @@ private var heightVelocity = 0.0;
 private var angleVelocity = 0.0;
 private var snap = false;
 private var controller : ThirdPersonController;
-private var targetHeight = 100000.0;
-var visaoDeMundo = false; 
-var mouseX : float;
-var mouseY : float;
+private var targetHeight = 100000.0; 
 
 function Awake ()
 {
@@ -52,7 +49,7 @@ function Awake ()
 	
 	if (controller)
 	{
-		var characterController : CharacterController = _target.GetComponent.<Collider>();
+		var characterController : CharacterController = _target.collider;
 		centerOffset = characterController.bounds.center - _target.position;
 		headOffset = centerOffset;
 		headOffset.y = characterController.bounds.max.y - _target.position.y;
@@ -205,8 +202,8 @@ function SetUpRotation (centerPos : Vector3, headPos : Vector3)
 	cameraTransform.rotation = yRotation * Quaternion.LookRotation(relativeOffset);
 
 	// Calculate the projected center position and top position in world space
-	var centerRay = cameraTransform.GetComponent.<Camera>().ViewportPointToRay(Vector3(.5, 0.5, 1));
-	var topRay = cameraTransform.GetComponent.<Camera>().ViewportPointToRay(Vector3(.5, clampHeadPositionScreenSpace, 1));
+	var centerRay = cameraTransform.camera.ViewportPointToRay(Vector3(.5, 0.5, 1));
+	var topRay = cameraTransform.camera.ViewportPointToRay(Vector3(.5, clampHeadPositionScreenSpace, 1));
 
 	var centerRayPos = centerRay.GetPoint(distance);
 	var topRayPos = topRay.GetPoint(distance);
@@ -230,25 +227,4 @@ function SetUpRotation (centerPos : Vector3, headPos : Vector3)
 function GetCenterOffset ()
 {
 	return centerOffset;
-}
-
-function Update(){
-	
-
-
-	 if (Input.GetAxis("Mouse ScrollWheel") > 0) // back
-{
-	if (height> 4)
-		height -= 1;
- 
-}
-if (Input.GetAxis("Mouse ScrollWheel") < 0) // forward
-{		
-	if (height< 22)
-	height += 1;
-
-
-}
-
-	
 }
