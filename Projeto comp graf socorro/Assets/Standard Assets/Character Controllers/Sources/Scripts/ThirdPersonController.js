@@ -1,19 +1,23 @@
-
 // Require a character controller to be attached to the same game object
 @script RequireComponent(CharacterController)
-public var hasKey : boolean;
-public var comecando : boolean;
+
 public var idleAnimation : AnimationClip;
 public var walkAnimation : AnimationClip;
 public var runAnimation : AnimationClip;
 public var jumpPoseAnimation : AnimationClip;
+public var Crouch : AnimationClip;
+public var CrouchWalk : AnimationClip;
+public var CrouchRun : AnimationClip;
 
 public var walkMaxAnimationSpeed : float = 0.75;
 public var trotMaxAnimationSpeed : float = 1.0;
 public var runMaxAnimationSpeed : float = 1.0;
 public var jumpAnimationSpeed : float = 1.15;
 public var landAnimationSpeed : float = 1.0;
-
+public var CrouchWalkSpeed : float = 0.5;
+public var posicao : Vector3;
+public var hasKey : boolean = false;
+public var comecando: boolean = true;
 
 private var _animation : Animation;
 
@@ -23,6 +27,9 @@ enum CharacterState {
 	Trotting = 2,
 	Running = 3,
 	Jumping = 4,
+	Crouch = 5,
+	CrouchWalk = 6,
+	CrouchRun = 7
 }
 
 private var _characterState : CharacterState;
@@ -37,7 +44,7 @@ var runSpeed = 6.0;
 var inAirControlAcceleration = 3.0;
 
 // How high do we jump when pressing jump and letting go immediately
-var jumpHeight = 0.5;
+var jumpHeight = 1;
 
 // The gravity for the character
 var gravity = 20.0;
@@ -192,7 +199,18 @@ function UpdateSmoothedMovementDirection ()
 		_characterState = CharacterState.Idle;
 		
 		// Pick speed modifier
-		if (Input.GetKey (KeyCode.LeftShift) || Input.GetKey (KeyCode.RightShift))
+		if (Input.GetKey (KeyCode.LeftControl) && Input.GetKey (KeyCode.LeftShift) )
+		{
+			targetSpeed *= runSpeed;
+			_characterState = CharacterState.CrouchRun;
+		}
+		else if (Input.GetKey (KeyCode.LeftControl))
+		{
+			targetSpeed *= CrouchWalkSpeed;
+			_characterState = CharacterState.Crouch;
+		}
+		
+		else if (Input.GetKey (KeyCode.LeftShift) || Input.GetKey (KeyCode.RightShift))
 		{
 			targetSpeed *= runSpeed;
 			_characterState = CharacterState.Running;
@@ -202,6 +220,7 @@ function UpdateSmoothedMovementDirection ()
 			targetSpeed *= trotSpeed;
 			_characterState = CharacterState.Trotting;
 		}
+		
 		else
 		{
 			targetSpeed *= walkSpeed;
@@ -290,6 +309,8 @@ function DidJump ()
 
 function Update() {
 	
+	
+	
 	if (!isControllable)
 	{
 		// kill all inputs if not controllable.
@@ -318,24 +339,43 @@ function Update() {
 	// Move the controller
 	var controller : CharacterController = GetComponent(CharacterController);
 	collisionFlags = controller.Move(movement);
-	
+//	controller.height = 0.5;  //// [e aqui que modifica o collider;
 	// ANIMATION sector
 	if(_animation) {
 		if(_characterState == CharacterState.Jumping) 
 		{
 			if(!jumpingReachedApex) {
-				_animation[jumpPoseAnimation.name].speed = jumpAnimationSpeed;
-				_animation[jumpPoseAnimation.name].wrapMode = WrapMode.ClampForever;
-				_animation.CrossFade(jumpPoseAnimation.name);
-			} else {
+				_animation[jumpPoseAnimation.name].speed = 0.4;
+				_animation[jumpPoseAnimation.name].wrapMode = WrapMode.Once;
+				_animation.Play(jumpPoseAnimation.name);
+			} /*else {
 				_animation[jumpPoseAnimation.name].speed = -landAnimationSpeed;
-				_animation[jumpPoseAnimation.name].wrapMode = WrapMode.ClampForever;
+				_animation[jumpPoseAnimation.name].wrapMode = WrapMode.Once;
 				_animation.CrossFade(jumpPoseAnimation.name);				
-			}
+			}*/
 		} 
 		else 
-		{
-			if(controller.velocity.sqrMagnitude < 0.1) {
+		{	
+			if(_characterState == CharacterState.CrouchRun){
+				if(controller.velocity.sqrMagnitude < 0.1) 
+					_animation.CrossFade(Crouch.name);	
+				else{
+					_animation.CrossFade(CrouchRun.name);
+					_animation[runAnimation.name].speed = Mathf.Clamp(controller.velocity.magnitude, 0.0, CrouchWalkSpeed);
+				}
+			}
+			
+			else if(_characterState == CharacterState.Crouch){
+				if(controller.velocity.sqrMagnitude < 0.1) 
+					_animation.CrossFade(Crouch.name);	
+				else{
+					_animation.CrossFade(CrouchWalk.name);
+					_animation[runAnimation.name].speed = Mathf.Clamp(controller.velocity.magnitude, 0.0, CrouchWalkSpeed);
+				}
+			}
+			
+			
+			else if(controller.velocity.sqrMagnitude < 0.1) {
 				_animation.CrossFade(idleAnimation.name);
 			}
 			else 
@@ -386,6 +426,8 @@ function Update() {
 			SendMessage("DidLand", SendMessageOptions.DontRequireReceiver);
 		}
 	}
+	
+	posicao = transform.position;
 }
 
 function OnControllerColliderHit (hit : ControllerColliderHit )
@@ -440,3 +482,9 @@ function Reset ()
 	gameObject.tag = "Player";
 }
 
+function OnTriggerEnter(other : Collider){
+	 
+	 
+	print("colidi com algo"+ other.name);
+
+}
