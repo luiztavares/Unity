@@ -1,9 +1,8 @@
 ﻿#pragma strict
 
-function Start () {
-
-}
-
-function Update () {
-
-}
+function OnTriggerEnter (other : Collider) {
+		print("ENTREI AREIA MOVEDICA");
+	}
+function OnTriggerExit (other : Collider) {
+		print("SAIU AREIA MOVEDICA");
+	}
