@@ -1,3 +1,4 @@
+
 // Require a character controller to be attached to the same game object
 @script RequireComponent(CharacterController)
 
@@ -188,7 +189,6 @@ function UpdateSmoothedMovementDirection ()
 				moveDirection = moveDirection.normalized;
 			}
 		}
-		
 		// Smooth the speed based on the current target direction
 		var curSmooth = speedSmoothing * Time.deltaTime;
 		
@@ -209,24 +209,22 @@ function UpdateSmoothedMovementDirection ()
 			targetSpeed *= CrouchWalkSpeed;
 			_characterState = CharacterState.Crouch;
 		}
-		
 		else if (Input.GetKey (KeyCode.LeftShift) || Input.GetKey (KeyCode.RightShift))
 		{
 			targetSpeed *= runSpeed;
 			_characterState = CharacterState.Running;
 		}
+		
 		else if (Time.time - trotAfterSeconds > walkTimeStart)
 		{
 			targetSpeed *= trotSpeed;
 			_characterState = CharacterState.Trotting;
 		}
-		
 		else
 		{
 			targetSpeed *= walkSpeed;
 			_characterState = CharacterState.Walking;
 		}
-		
 		moveSpeed = Mathf.Lerp(moveSpeed, targetSpeed, curSmooth);
 		
 		// Reset walk time start when we slow down
@@ -247,7 +245,6 @@ function UpdateSmoothedMovementDirection ()
 
 		
 }
-
 
 function ApplyJumping ()
 {
@@ -308,9 +305,7 @@ function DidJump ()
 }
 
 function Update() {
-	
-	
-	
+	//	controller.height = 0.5;  //// [e aqui que modifica o collider;
 	if (!isControllable)
 	{
 		// kill all inputs if not controllable.
@@ -339,24 +334,24 @@ function Update() {
 	// Move the controller
 	var controller : CharacterController = GetComponent(CharacterController);
 	collisionFlags = controller.Move(movement);
-//	controller.height = 0.5;  //// [e aqui que modifica o collider;
+	
 	// ANIMATION sector
 	if(_animation) {
 		if(_characterState == CharacterState.Jumping) 
 		{
 			if(!jumpingReachedApex) {
 				_animation[jumpPoseAnimation.name].speed = 0.4;
-				_animation[jumpPoseAnimation.name].wrapMode = WrapMode.Once;
+				_animation[jumpPoseAnimation.name].wrapMode = WrapMode.Oncer;
 				_animation.Play(jumpPoseAnimation.name);
 			} /*else {
 				_animation[jumpPoseAnimation.name].speed = -landAnimationSpeed;
-				_animation[jumpPoseAnimation.name].wrapMode = WrapMode.Once;
+				_animation[jumpPoseAnimation.name].wrapMode = WrapMode.ClampForever;
 				_animation.CrossFade(jumpPoseAnimation.name);				
-			}*/
+			} */
 		} 
 		else 
-		{	
-			if(_characterState == CharacterState.CrouchRun){
+		{
+		if(_characterState == CharacterState.CrouchRun){
 				if(controller.velocity.sqrMagnitude < 0.1) 
 					_animation.CrossFade(Crouch.name);	
 				else{
@@ -426,8 +421,6 @@ function Update() {
 			SendMessage("DidLand", SendMessageOptions.DontRequireReceiver);
 		}
 	}
-	
-	posicao = transform.position;
 }
 
 function OnControllerColliderHit (hit : ControllerColliderHit )
@@ -482,9 +475,3 @@ function Reset ()
 	gameObject.tag = "Player";
 }
 
-function OnTriggerEnter(other : Collider){
-	 
-	 
-	print("colidi com algo"+ other.name);
-
-}

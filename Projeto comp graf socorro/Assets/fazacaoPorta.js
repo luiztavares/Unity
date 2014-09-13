@@ -6,8 +6,8 @@ var hasKey: boolean;
 var portaAberta : boolean = false;
 function OnTriggerEnter(player: Collider)
 {	print("ola");
-	comecando = player.GetComponent(ThirdPersonController).comecando;
-	hasKey = player.GetComponent(ThirdPersonController).hasKey;
+//	comecando = player.GetComponent(ThirdPersonController).comecando;
+	//hasKey = player.GetComponent(ThirdPersonController).hasKey;
 	if (comecando || hasKey)
 	{
 		if (!portaAberta)
@@ -18,7 +18,7 @@ function OnTriggerEnter(player: Collider)
 		
 		if (comecando)
 		{
-			player.GetComponent(ThirdPersonController).comecando = false;
+			//player.GetComponent(ThirdPersonController).comecando = false;
 		}
 	}
 		
